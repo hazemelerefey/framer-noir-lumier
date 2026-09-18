@@ -52,9 +52,14 @@ export default function HomePage() {
       {/* 1. HERO SECTION */}
       <section className="max-w-7xl mx-auto px-6 pt-6 sm:pt-12">
         <div className="flex flex-col items-start space-y-6">
-          <div className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 px-4 py-1.5 rounded-full text-xs font-mono uppercase tracking-widest text-neutral-300">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>Available for Q4 Commissions</span>
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 px-4 py-1.5 rounded-full text-xs font-mono uppercase tracking-widest text-neutral-300">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span>Available for Q4 Commissions</span>
+            </div>
+            <div className="inline-flex items-center space-x-2 bg-white/10 border border-white/20 px-4 py-1.5 rounded-full text-xs font-mono uppercase tracking-widest text-white">
+              <span>Designed by Hazem Elerefy</span>
+            </div>
           </div>
 
           <h1 className="text-5xl sm:text-7xl lg:text-8xl xl:text-9xl font-editorial tracking-tight text-white leading-[0.9] max-w-5xl">
@@ -272,7 +277,7 @@ export default function HomePage() {
               A photographer focused on capturing <span className="italic font-normal">honest</span> and poetic moments.
             </h2>
             <p className="text-sm sm:text-base text-neutral-400 font-light leading-relaxed">
-              With more than eight years behind the camera, my artistic philosophy centers on the interplay of natural ambient light and vulnerable, authentic presence. Directed by Noir Lumière.
+              With more than eight years behind the camera, my artistic philosophy centers on the interplay of natural ambient light and vulnerable, authentic presence. Directed & Designed by Hazem Elerefy.
             </p>
             <div className="pt-2">
               <Link

@@ -1,4 +1,5 @@
 # Noir Lumière – Editorial Photography Portfolio
+### Designed & Developed by [Hazem Elerefy](https://github.com/hazemelerefey)
 
 A high-fashion, editorial photography portfolio web application extracted and recreated from **Framer** (`PhotoPort`) into a clean, modern **Next.js 14** application with **TypeScript**, **Tailwind CSS**, and a **Full Framer Archive**.
 
@@ -98,5 +99,6 @@ Run `npm run build` or use the standard Next.js build command on your hosting pl
 
 ---
 
-## 📜 License
-Personal Portfolio Project. Design & Content © Noir Lumière.
+## 📜 Credits & License
+- **Design & Engineering**: Designed & Developed by [Hazem Elerefy](https://github.com/hazemelerefey).
+- Original visual foundations from Framer PhotoPort. All rights reserved.

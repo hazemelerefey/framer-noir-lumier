@@ -5,8 +5,11 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Noir Lumière – Editorial & Commercial Photography Studio',
-  description: 'PhotoPort is a modern photography portfolio built in Framer and Next.js, showcasing visual identity, bold layouts, and timeless imagery.',
-  keywords: ['photography', 'portfolio', 'editorial', 'framer', 'noir lumiere', 'fashion', 'brand shoot'],
+  description: 'Editorial photography portfolio designed by Hazem Elerefy, showcasing visual identity, bold layouts, and timeless imagery.',
+  keywords: ['photography', 'portfolio', 'editorial', 'framer', 'noir lumiere', 'hazem elerefy', 'fashion', 'brand shoot'],
+  authors: [{ name: 'Hazem Elerefy', url: 'https://github.com/hazemelerefey' }],
+  creator: 'Hazem Elerefy',
+  publisher: 'Hazem Elerefy',
 };
 
 export default function RootLayout({

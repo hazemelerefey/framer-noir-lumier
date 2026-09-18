@@ -2,7 +2,11 @@
   "name": "framer-noir-lumier",
   "version": "1.0.0",
   "private": true,
-  "description": "Noir Lumière – Editorial Photography Portfolio extracted from Framer with Next.js 14, Tailwind CSS, and Full Static Archive",
+  "description": "Noir Lumière – Editorial Photography Portfolio extracted from Framer with Next.js 14, Tailwind CSS, and Full Static Archive. Designed by Hazem Elerefy.",
+  "author": {
+    "name": "Hazem Elerefy",
+    "url": "https://github.com/hazemelerefey"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

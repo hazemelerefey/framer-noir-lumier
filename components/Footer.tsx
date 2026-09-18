@@ -85,9 +85,23 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-400 space-y-4 sm:space-y-0">
-          <p>© {new Date().getFullYear()} Noir Lumière Studio. All rights reserved.</p>
-          <div className="flex items-center space-x-6">
-            <span>PhotoPort Photography System</span>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
+            <p>© {new Date().getFullYear()} Noir Lumière Studio. All rights reserved.</p>
+            <span className="hidden sm:inline">•</span>
+            <p className="text-white font-medium">
+              Designed & Developed by{' '}
+              <a
+                href="https://github.com/hazemelerefey"
+                target="_blank"
+                rel="noreferrer"
+                className="underline hover:text-neutral-300 font-semibold"
+              >
+                Hazem Elerefy
+              </a>
+            </p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <span className="text-neutral-300 font-mono">Designed by Hazem Elerefy</span>
             <span>•</span>
             <span>Next.js 14 & Framer</span>
           </div>

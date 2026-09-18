@@ -39,15 +39,17 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/5 transition-all">
       {/* Top micro bar */}
       <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between text-[11px] text-neutral-400 border-b border-white/5 tracking-wider uppercase">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-3">
           <span>London, UK</span>
           <span className="text-neutral-600">•</span>
           <span className="font-mono text-neutral-300">{time || '19:30:00'} GMT</span>
+          <span className="text-neutral-600">•</span>
+          <span className="text-neutral-200 font-medium tracking-wider">Designed by Hazem Elerefy</span>
         </div>
         <div className="hidden sm:flex items-center space-x-6 text-[11px]">
+          <a href="https://github.com/hazemelerefey" target="_blank" rel="noreferrer" className="text-white hover:text-neutral-300 transition-colors">hazemelerefey</a>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Instagram</a>
           <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">X (Twitter)</a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
         </div>
       </div>
 
@@ -59,7 +61,7 @@ export default function Navbar() {
             NOIR LUMIER
           </span>
           <span className="text-[10px] tracking-widest text-neutral-400 uppercase font-mono">
-            Photography Studio
+            Designed by Hazem Elerefy
           </span>
         </Link>
 
