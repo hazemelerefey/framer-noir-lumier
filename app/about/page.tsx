@@ -28,11 +28,9 @@ export default function AboutPage() {
     <div className="space-y-24 sm:space-y-32 pb-24 max-w-7xl mx-auto px-6">
       {/* 1. HEADER */}
       <section className="pt-6">
-        <div className="flex items-center space-x-3 text-xs font-mono uppercase tracking-widest text-neutral-400 mb-3">
-          <span>Behind The Lens</span>
-          <span>•</span>
-          <span className="text-white font-medium">Designed by Hazem Elerefy</span>
-        </div>
+        <span className="text-xs font-mono uppercase tracking-widest text-neutral-400 block mb-3">
+          Behind The Lens
+        </span>
         <h1 className="text-5xl sm:text-7xl lg:text-8xl font-editorial text-white leading-none max-w-4xl">
           Capturing <span className="italic">raw presence</span>, delicate light, and honest emotion.
         </h1>
@@ -58,7 +56,7 @@ export default function AboutPage() {
             My Story
           </span>
           <h2 className="text-3xl sm:text-4xl font-editorial text-white">
-            Directed & Designed by Hazem Elerefy
+            Directed by: Noir Lumière
           </h2>
           <div className="space-y-4 text-neutral-300 font-light text-base sm:text-lg leading-relaxed">
             <p>
