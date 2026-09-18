@@ -1,0 +1,2925 @@
+[
+  {
+    "id": "cqkqF80Du",
+    "name": "Articlles",
+    "fields": [
+      {
+        "id": "QOVjKvzHc",
+        "name": "Title",
+        "type": "string"
+      },
+      {
+        "id": "Sz3I5zvv6",
+        "name": "Author name",
+        "type": "string"
+      },
+      {
+        "id": "s6Kycyshm",
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "id": "CnbgY3fCS",
+        "name": "read time",
+        "type": "string"
+      },
+      {
+        "id": "NLBTqegIU",
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "id": "s0sygdLt2",
+        "name": "main Image",
+        "type": "image"
+      },
+      {
+        "id": "VbLqnmjOF",
+        "name": "Image 1",
+        "type": "image"
+      },
+      {
+        "id": "dbVt1wlJI",
+        "name": "Image 2",
+        "type": "image"
+      },
+      {
+        "id": "F4mCukKv8",
+        "name": "content",
+        "type": "string"
+      },
+      {
+        "id": "MtNOOLTh5",
+        "name": "Image 3",
+        "type": "image"
+      },
+      {
+        "id": "BbmNgaTCx",
+        "name": "Image 4",
+        "type": "image"
+      },
+      {
+        "id": "Wc0G8AMn3",
+        "name": "Image 5",
+        "type": "image"
+      },
+      {
+        "id": "ys1fw9TFz",
+        "name": "Image 6",
+        "type": "image"
+      },
+      {
+        "id": "eyn9MOHAx",
+        "name": "Image 7",
+        "type": "image"
+      },
+      {
+        "id": "PXO6I2g6J",
+        "name": "content 2",
+        "type": "string"
+      },
+      {
+        "id": "DsdpBkKSG",
+        "name": "sub-content",
+        "type": "string"
+      },
+      {
+        "id": "jQJzVTWyM",
+        "name": "Image 8",
+        "type": "image"
+      },
+      {
+        "id": "byrLcPGov",
+        "name": "Image 9",
+        "type": "image"
+      },
+      {
+        "id": "ZQ3L26KQo",
+        "name": "content 3",
+        "type": "string"
+      },
+      {
+        "id": "XXZrJddnx",
+        "name": "sub-content 2",
+        "type": "string"
+      }
+    ],
+    "items": [
+      {
+        "id": "gFmFH6l7p",
+        "slug": "stillness-in-motion",
+        "draft": false,
+        "fieldData": {
+          "QOVjKvzHc": {
+            "type": "string",
+            "value": "Stillness in Motion",
+            "valueByLocale": {}
+          },
+          "Sz3I5zvv6": {
+            "type": "string",
+            "value": "Maria West",
+            "valueByLocale": {}
+          },
+          "s6Kycyshm": {
+            "type": "string",
+            "value": "Guide",
+            "valueByLocale": {}
+          },
+          "CnbgY3fCS": {
+            "type": "string",
+            "value": "5 mins",
+            "valueByLocale": {}
+          },
+          "NLBTqegIU": {
+            "type": "string",
+            "value": "12-11-25",
+            "valueByLocale": {}
+          },
+          "s0sygdLt2": {
+            "type": "image",
+            "value": {
+              "id": "lz8vFTeo6hltIZSfw7Vj9m6A.png",
+              "url": "https://framerusercontent.com/images/lz8vFTeo6hltIZSfw7Vj9m6A.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/lz8vFTeo6hltIZSfw7Vj9m6A.png?scale-down-to=512",
+              "altText": "sage green hills",
+              "resolution": "auto"
+            }
+          },
+          "VbLqnmjOF": {
+            "type": "image",
+            "value": {
+              "id": "9MFwEuDccVzBMmvxXGOb33edeE.png",
+              "url": "https://framerusercontent.com/images/9MFwEuDccVzBMmvxXGOb33edeE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/9MFwEuDccVzBMmvxXGOb33edeE.png?scale-down-to=512",
+              "altText": "men with big red bag",
+              "resolution": "auto"
+            }
+          },
+          "dbVt1wlJI": {
+            "type": "image",
+            "value": {
+              "id": "Z4omtLoZrnkVL5snOsGj19rOd1E.png",
+              "url": "https://framerusercontent.com/images/Z4omtLoZrnkVL5snOsGj19rOd1E.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Z4omtLoZrnkVL5snOsGj19rOd1E.png?scale-down-to=512",
+              "altText": "land scape",
+              "resolution": "auto"
+            }
+          },
+          "F4mCukKv8": {
+            "type": "string",
+            "value": "Stillness in Motion explores the balance between quiet design and intentional interaction. The goal was to create digital experiences that feel calm, fluid, and purposeful while guiding users effortlessly through each moment in time.",
+            "valueByLocale": {}
+          },
+          "MtNOOLTh5": {
+            "type": "image",
+            "value": {
+              "id": "Vg8yfC2WLNZGS1odF2WB94uqYtc.png",
+              "url": "https://framerusercontent.com/images/Vg8yfC2WLNZGS1odF2WB94uqYtc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Vg8yfC2WLNZGS1odF2WB94uqYtc.png?scale-down-to=512",
+              "altText": "Desert scene with fine sandy terrain, small dunes, and two cacti in the center, under a clear sky",
+              "resolution": "auto"
+            }
+          },
+          "BbmNgaTCx": {
+            "type": "image",
+            "value": {
+              "id": "evqbGW8LmUsd3onekEpAn82FkNQ.png",
+              "url": "https://framerusercontent.com/images/evqbGW8LmUsd3onekEpAn82FkNQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/evqbGW8LmUsd3onekEpAn82FkNQ.png?scale-down-to=512",
+              "altText": "Person wearing a white paper animal mask, facing away from the camera, standing on a mountain with dense fog and snowfields",
+              "resolution": "auto"
+            }
+          },
+          "Wc0G8AMn3": {
+            "type": "image",
+            "value": {
+              "id": "m19Z7fIAWxkdApLD533nO0sT38.png",
+              "url": "https://framerusercontent.com/images/m19Z7fIAWxkdApLD533nO0sT38.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/m19Z7fIAWxkdApLD533nO0sT38.png?scale-down-to=512",
+              "altText": "scenery  with a house",
+              "resolution": "auto"
+            }
+          },
+          "ys1fw9TFz": {
+            "type": "image",
+            "value": {
+              "id": "Kn4bL9GkAW2XZcrOTHaBui8Xhuc.png",
+              "url": "https://framerusercontent.com/images/Kn4bL9GkAW2XZcrOTHaBui8Xhuc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Kn4bL9GkAW2XZcrOTHaBui8Xhuc.png?scale-down-to=512",
+              "altText": "stone steps",
+              "resolution": "auto"
+            }
+          },
+          "eyn9MOHAx": {
+            "type": "image",
+            "value": {
+              "id": "QCMMVqsjCMfVi8lbbPh4zyVvbKI.png",
+              "url": "https://framerusercontent.com/images/QCMMVqsjCMfVi8lbbPh4zyVvbKI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/QCMMVqsjCMfVi8lbbPh4zyVvbKI.png?scale-down-to=512",
+              "altText": "green grass mountain",
+              "resolution": "auto"
+            }
+          },
+          "PXO6I2g6J": {
+            "type": "string",
+            "value": "Stillness in Motion began as an exploration of how movement can exist within quiet, intentional composition.",
+            "valueByLocale": {}
+          },
+          "DsdpBkKSG": {
+            "type": "string",
+            "value": "Stillness in Motion was created as a beautiful and intricate visual study of balance between movement and calm. The goal was to craft imagery that feels intentional, fluid, and quietly powerful — capturing motion without losing the serenity of a beautiful minimal yet intricate design.",
+            "valueByLocale": {}
+          },
+          "jQJzVTWyM": {
+            "type": "image",
+            "value": {
+              "id": "kuopkHNbebZHFCwBS8Wk9QTE.png",
+              "url": "https://framerusercontent.com/images/kuopkHNbebZHFCwBS8Wk9QTE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/kuopkHNbebZHFCwBS8Wk9QTE.png?scale-down-to=512",
+              "altText": "rice farm",
+              "resolution": "auto"
+            }
+          },
+          "byrLcPGov": {
+            "type": "image",
+            "value": {
+              "id": "FHMn1jzpwLNlNTp15wjEx6sZ8.png",
+              "url": "https://framerusercontent.com/images/FHMn1jzpwLNlNTp15wjEx6sZ8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/FHMn1jzpwLNlNTp15wjEx6sZ8.png?scale-down-to=512",
+              "resolution": "auto"
+            }
+          },
+          "ZQ3L26KQo": {
+            "type": "string",
+            "value": "Stillness in Motion continues as an exploration of contrast",
+            "valueByLocale": {}
+          },
+          "XXZrJddnx": {
+            "type": "string",
+            "value": "where softness meets structure and movement meets pause. The focus remains on creating visuals that feel grounded yet dynamic, allowing subtle motion to exist within calm, carefully composed frames.",
+            "valueByLocale": {}
+          }
+        }
+      },
+      {
+        "id": "fVLEPMvUT",
+        "slug": "composed-with-intention",
+        "draft": false,
+        "fieldData": {
+          "QOVjKvzHc": {
+            "type": "string",
+            "value": "Composed with Intention",
+            "valueByLocale": {}
+          },
+          "Sz3I5zvv6": {
+            "type": "string",
+            "value": "Charlie Beth",
+            "valueByLocale": {}
+          },
+          "s6Kycyshm": {
+            "type": "string",
+            "value": "Guide",
+            "valueByLocale": {}
+          },
+          "CnbgY3fCS": {
+            "type": "string",
+            "value": "2 min",
+            "valueByLocale": {}
+          },
+          "NLBTqegIU": {
+            "type": "string",
+            "value": "21-11-25",
+            "valueByLocale": {}
+          },
+          "s0sygdLt2": {
+            "type": "image",
+            "value": {
+              "id": "XwBoPygGa5V07p4sfUtEbQgsVk.png",
+              "url": "https://framerusercontent.com/images/XwBoPygGa5V07p4sfUtEbQgsVk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/XwBoPygGa5V07p4sfUtEbQgsVk.png?scale-down-to=512",
+              "altText": "blurry man",
+              "resolution": "auto"
+            }
+          },
+          "VbLqnmjOF": {
+            "type": "image",
+            "value": {
+              "id": "HXphtPX6yoOxrQ84EHlFS4zxgco.png",
+              "url": "https://framerusercontent.com/images/HXphtPX6yoOxrQ84EHlFS4zxgco.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/HXphtPX6yoOxrQ84EHlFS4zxgco.png?scale-down-to=512",
+              "altText": "designer walking in hallways",
+              "resolution": "auto"
+            }
+          },
+          "dbVt1wlJI": {
+            "type": "image",
+            "value": {
+              "id": "yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png",
+              "url": "https://framerusercontent.com/images/yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png?scale-down-to=512",
+              "altText": "minimalist portrait",
+              "resolution": "auto"
+            }
+          },
+          "F4mCukKv8": {
+            "type": "string",
+            "value": "Composed with Intention explores the power of thoughtful structure and deliberate detail. The goal was to craft visuals that feel balanced, refined, and purposeful — where every element is placed with complete clarity and meaning.",
+            "valueByLocale": {}
+          },
+          "MtNOOLTh5": {
+            "type": "image",
+            "value": {
+              "id": "blr7MUeSH5nlOzNX4eeqyGTPDo.png",
+              "url": "https://framerusercontent.com/images/blr7MUeSH5nlOzNX4eeqyGTPDo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/blr7MUeSH5nlOzNX4eeqyGTPDo.png?scale-down-to=512",
+              "altText": "dark chair",
+              "resolution": "auto"
+            }
+          },
+          "BbmNgaTCx": {
+            "type": "image",
+            "value": {
+              "id": "uiMEifi3jiv9Gh5fySDjnocPfA8.png",
+              "url": "https://framerusercontent.com/images/uiMEifi3jiv9Gh5fySDjnocPfA8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/uiMEifi3jiv9Gh5fySDjnocPfA8.png?scale-down-to=512",
+              "altText": "silver tube",
+              "resolution": "auto"
+            }
+          },
+          "Wc0G8AMn3": {
+            "type": "image",
+            "value": {
+              "id": "tARAteJcT4dkLyNYs46atk7wdA.png",
+              "url": "https://framerusercontent.com/images/tARAteJcT4dkLyNYs46atk7wdA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/tARAteJcT4dkLyNYs46atk7wdA.png?scale-down-to=512",
+              "altText": "explosion",
+              "resolution": "auto"
+            }
+          },
+          "ys1fw9TFz": {
+            "type": "image",
+            "value": {
+              "id": "osV5pge4pkBH74vD1LQ9QJLM.png",
+              "url": "https://framerusercontent.com/images/osV5pge4pkBH74vD1LQ9QJLM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/osV5pge4pkBH74vD1LQ9QJLM.png?scale-down-to=512",
+              "altText": "men with sweater on",
+              "resolution": "auto"
+            }
+          },
+          "eyn9MOHAx": {
+            "type": "image",
+            "value": {
+              "id": "cqv8IF7gQzNq79ZARSwHb9l2mTA.png",
+              "url": "https://framerusercontent.com/images/cqv8IF7gQzNq79ZARSwHb9l2mTA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cqv8IF7gQzNq79ZARSwHb9l2mTA.png?scale-down-to=512",
+              "altText": "men with unique posture",
+              "resolution": "auto"
+            }
+          },
+          "PXO6I2g6J": {
+            "type": "string",
+            "value": "Composed with Intention began as an exploration of how thoughtful structure can shape clarity within every frame.",
+            "valueByLocale": {}
+          },
+          "DsdpBkKSG": {
+            "type": "string",
+            "value": "Composed with Intention was created as a balanced study in deliberate framing and purposeful details. The goal was to craft imagery that feels super balanced, greatly refined, and quietly impactful — where each and every element is placed with full clarity and complete meaning.",
+            "valueByLocale": {}
+          },
+          "jQJzVTWyM": {
+            "type": "image",
+            "value": {
+              "id": "oHdhZGuuofOLnnTbmDEzX5z9Mr0.png",
+              "url": "https://framerusercontent.com/images/oHdhZGuuofOLnnTbmDEzX5z9Mr0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/oHdhZGuuofOLnnTbmDEzX5z9Mr0.png?scale-down-to=512",
+              "altText": "water swirl",
+              "resolution": "auto"
+            }
+          },
+          "byrLcPGov": {
+            "type": "image",
+            "value": {
+              "id": "GbgXM3eVyjMHo946vJiwY0sbI.png",
+              "url": "https://framerusercontent.com/images/GbgXM3eVyjMHo946vJiwY0sbI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GbgXM3eVyjMHo946vJiwY0sbI.png?scale-down-to=512",
+              "altText": "blurry men",
+              "resolution": "auto"
+            }
+          },
+          "ZQ3L26KQo": {
+            "type": "string",
+            "value": "Composed with Intention continues as an exploration of clarity and purpose.",
+            "valueByLocale": {}
+          },
+          "XXZrJddnx": {
+            "type": "string",
+            "value": "where precision meets simplicity and every detail serves a clear purpose. The focus remains on creating visuals that feel balanced yet expressive, allowing thoughtful composition to bring intricate harmony within clean, intentional and beautiful frames.",
+            "valueByLocale": {}
+          }
+        }
+      },
+      {
+        "id": "FLBRTtV3P",
+        "slug": "where-light-meets-emotion",
+        "draft": false,
+        "fieldData": {
+          "QOVjKvzHc": {
+            "type": "string",
+            "value": "Where Light Meets Emotion",
+            "valueByLocale": {}
+          },
+          "Sz3I5zvv6": {
+            "type": "string",
+            "value": "Magoski",
+            "valueByLocale": {}
+          },
+          "s6Kycyshm": {
+            "type": "string",
+            "value": "Guide",
+            "valueByLocale": {}
+          },
+          "CnbgY3fCS": {
+            "type": "string",
+            "value": "5 mins",
+            "valueByLocale": {}
+          },
+          "NLBTqegIU": {
+            "type": "string",
+            "value": "13-12-24",
+            "valueByLocale": {}
+          },
+          "s0sygdLt2": {
+            "type": "image",
+            "value": {
+              "id": "nc0RL687SrTdMtyjZeFCKFrY.png",
+              "url": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png?scale-down-to=512",
+              "altText": "mystic red field",
+              "resolution": "auto"
+            }
+          },
+          "VbLqnmjOF": {
+            "type": "image",
+            "value": {
+              "id": "jycWzFro8joB3EgGJnjzbbPlhs.png",
+              "url": "https://framerusercontent.com/images/jycWzFro8joB3EgGJnjzbbPlhs.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jycWzFro8joB3EgGJnjzbbPlhs.png?scale-down-to=512",
+              "altText": "men with red cape",
+              "resolution": "auto"
+            }
+          },
+          "dbVt1wlJI": {
+            "type": "image",
+            "value": {
+              "id": "5OhXcUImmNUucCA3XPepFcJV6oA.png",
+              "url": "https://framerusercontent.com/images/5OhXcUImmNUucCA3XPepFcJV6oA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/5OhXcUImmNUucCA3XPepFcJV6oA.png?scale-down-to=512",
+              "altText": "elegant red hat",
+              "resolution": "auto"
+            }
+          },
+          "F4mCukKv8": {
+            "type": "string",
+            "value": "Where Light Meets Emotion explores the connection between illumination and feeling. The goal was to craft imagery that feels warm, expressive, and deeply atmospheric — where light becomes a storytelling element rather than just a technical tool.",
+            "valueByLocale": {}
+          },
+          "MtNOOLTh5": {
+            "type": "image",
+            "value": {
+              "id": "y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "url": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png?scale-down-to=512",
+              "altText": "men with red cap",
+              "resolution": "auto"
+            }
+          },
+          "BbmNgaTCx": {
+            "type": "image",
+            "value": {
+              "id": "kjxGGAvW1WSGfPhwHxYxDci2h8.png",
+              "url": "https://framerusercontent.com/images/kjxGGAvW1WSGfPhwHxYxDci2h8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/kjxGGAvW1WSGfPhwHxYxDci2h8.png?scale-down-to=512",
+              "altText": "men with red dress and big hat",
+              "resolution": "auto"
+            }
+          },
+          "Wc0G8AMn3": {
+            "type": "image",
+            "value": {
+              "id": "1KS8yQEnbnZXhXrm410uuos8.png",
+              "url": "https://framerusercontent.com/images/1KS8yQEnbnZXhXrm410uuos8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/1KS8yQEnbnZXhXrm410uuos8.png?scale-down-to=512",
+              "altText": "abstratc potrait",
+              "resolution": "auto"
+            }
+          },
+          "ys1fw9TFz": {
+            "type": "image",
+            "value": {
+              "id": "TLdGGSAjK3QwQAN3cX2ioEsmcM.png",
+              "url": "https://framerusercontent.com/images/TLdGGSAjK3QwQAN3cX2ioEsmcM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/TLdGGSAjK3QwQAN3cX2ioEsmcM.png?scale-down-to=512",
+              "altText": "red clothed men in farmland",
+              "resolution": "auto"
+            }
+          },
+          "eyn9MOHAx": {
+            "type": "image",
+            "value": {
+              "id": "GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "url": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png?scale-down-to=512",
+              "resolution": "auto"
+            }
+          },
+          "PXO6I2g6J": {
+            "type": "string",
+            "value": "Where Light Meets Emotion began as an exploration of how light can transform mood and deepen the feeling within every frame.",
+            "valueByLocale": {}
+          },
+          "DsdpBkKSG": {
+            "type": "string",
+            "value": "Where Light Meets Emotion was created as a visual study of how illumination shapes atmosphere and feeling. The goal was to craft imagery that feels warm, expressive, and immersive — where light guides the emotion within each frame and converts it into something meaningful.",
+            "valueByLocale": {}
+          },
+          "jQJzVTWyM": {
+            "type": "image",
+            "value": {
+              "id": "BM4XZJM3SmXSPNY3UtPia8U8.png",
+              "url": "https://framerusercontent.com/images/BM4XZJM3SmXSPNY3UtPia8U8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BM4XZJM3SmXSPNY3UtPia8U8.png?scale-down-to=512",
+              "altText": "women with red sweater",
+              "resolution": "auto"
+            }
+          },
+          "byrLcPGov": {
+            "type": "image",
+            "value": {
+              "id": "GrF5UU03UKDpsxHz8d7tdJiKT8M.png",
+              "url": "https://framerusercontent.com/images/GrF5UU03UKDpsxHz8d7tdJiKT8M.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GrF5UU03UKDpsxHz8d7tdJiKT8M.png?scale-down-to=512",
+              "altText": "abstract pots",
+              "resolution": "auto"
+            }
+          },
+          "ZQ3L26KQo": {
+            "type": "string",
+            "value": "Where Light Meets Emotion continues as an exploration of atmosphere and feeling.",
+            "valueByLocale": {}
+          },
+          "XXZrJddnx": {
+            "type": "string",
+            "value": "where light shapes mood and every shadow carries intention. The focus remains on creating visuals that feel intimate yet expansive, allowing illumination to guide emotion within soft, atmospheric frames.",
+            "valueByLocale": {}
+          }
+        }
+      },
+      {
+        "id": "Bq9SxrwAN",
+        "slug": "framing-the-unseen",
+        "draft": false,
+        "fieldData": {
+          "QOVjKvzHc": {
+            "type": "string",
+            "value": "Framing the Unseen",
+            "valueByLocale": {}
+          },
+          "Sz3I5zvv6": {
+            "type": "string",
+            "value": "Harry Wain",
+            "valueByLocale": {}
+          },
+          "s6Kycyshm": {
+            "type": "string",
+            "value": "Guide",
+            "valueByLocale": {}
+          },
+          "CnbgY3fCS": {
+            "type": "string",
+            "value": "3 mins",
+            "valueByLocale": {}
+          },
+          "NLBTqegIU": {
+            "type": "string",
+            "value": "30-7-25",
+            "valueByLocale": {}
+          },
+          "s0sygdLt2": {
+            "type": "image",
+            "value": {
+              "id": "Z69VwrFJ5QcehNlPQAzuI71J4.png",
+              "url": "https://framerusercontent.com/images/Z69VwrFJ5QcehNlPQAzuI71J4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Z69VwrFJ5QcehNlPQAzuI71J4.png?scale-down-to=512",
+              "altText": "glass perfume",
+              "resolution": "auto"
+            }
+          },
+          "VbLqnmjOF": {
+            "type": "image",
+            "value": {
+              "id": "ekZpRfJ8DYJvUPte0j8waIzjzY.png",
+              "url": "https://framerusercontent.com/images/ekZpRfJ8DYJvUPte0j8waIzjzY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ekZpRfJ8DYJvUPte0j8waIzjzY.png?scale-down-to=512",
+              "altText": "men in orange fog",
+              "resolution": "auto"
+            }
+          },
+          "dbVt1wlJI": {
+            "type": "image",
+            "value": {
+              "id": "VZOXAs8lg6aKKkKPgaOLruNTGyc.png",
+              "url": "https://framerusercontent.com/images/VZOXAs8lg6aKKkKPgaOLruNTGyc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/VZOXAs8lg6aKKkKPgaOLruNTGyc.png?scale-down-to=512",
+              "altText": "women with white hat over the face",
+              "resolution": "auto"
+            }
+          },
+          "F4mCukKv8": {
+            "type": "string",
+            "value": "Framing the Unseen explores the beauty found in subtle details and overlooked moments. The goal was to craft imagery that feels intimate, thoughtful, and quietly powerful — revealing stories that often exist just beyond the obvious.",
+            "valueByLocale": {}
+          },
+          "MtNOOLTh5": {
+            "type": "image",
+            "value": {
+              "id": "0thijkd3haRAGX0PjNMAZxLDw.png",
+              "url": "https://framerusercontent.com/images/0thijkd3haRAGX0PjNMAZxLDw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/0thijkd3haRAGX0PjNMAZxLDw.png?scale-down-to=512",
+              "altText": "glass of wateragainst a orange backgroung",
+              "resolution": "auto"
+            }
+          },
+          "BbmNgaTCx": {
+            "type": "image",
+            "value": {
+              "id": "7zhft7CSszRvbmdqcUkcBxKXmk.png",
+              "url": "https://framerusercontent.com/images/7zhft7CSszRvbmdqcUkcBxKXmk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/7zhft7CSszRvbmdqcUkcBxKXmk.png?scale-down-to=512",
+              "altText": "men withorange attire",
+              "resolution": "auto"
+            }
+          },
+          "Wc0G8AMn3": {
+            "type": "image",
+            "value": {
+              "id": "CPQiFZQ35E3TU7lLJdUIBwVdeak.png",
+              "url": "https://framerusercontent.com/images/CPQiFZQ35E3TU7lLJdUIBwVdeak.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/CPQiFZQ35E3TU7lLJdUIBwVdeak.png?scale-down-to=512",
+              "altText": "orange jellyfish",
+              "resolution": "auto"
+            }
+          },
+          "ys1fw9TFz": {
+            "type": "image",
+            "value": {
+              "id": "0pRa8pd620DR5RekaNK5YWpYfY.png",
+              "url": "https://framerusercontent.com/images/0pRa8pd620DR5RekaNK5YWpYfY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/0pRa8pd620DR5RekaNK5YWpYfY.png?scale-down-to=512",
+              "altText": "men sitting on orange boxes",
+              "resolution": "auto"
+            }
+          },
+          "eyn9MOHAx": {
+            "type": "image",
+            "value": {
+              "id": "ukDbiGAx0fn1zMoeFCcESQldjA.png",
+              "url": "https://framerusercontent.com/images/ukDbiGAx0fn1zMoeFCcESQldjA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ukDbiGAx0fn1zMoeFCcESQldjA.png?scale-down-to=512",
+              "altText": "men withbig black hat",
+              "resolution": "auto"
+            }
+          },
+          "PXO6I2g6J": {
+            "type": "string",
+            "value": "Framing the Unseen began as an exploration of how subtle details and quiet moments can shape the story within every frame.",
+            "valueByLocale": {}
+          },
+          "DsdpBkKSG": {
+            "type": "string",
+            "value": "Framing the Unseen was created as a visual study of nuance and quiet observation. The goal was to craft imagery that feels intimate, intentional, and revealing — where overlooked details become the heart of the story within each frame.",
+            "valueByLocale": {}
+          },
+          "jQJzVTWyM": {
+            "type": "image",
+            "value": {
+              "id": "6FByyzWEDGoO4LQG5Q7IuiIykZk.png",
+              "url": "https://framerusercontent.com/images/6FByyzWEDGoO4LQG5Q7IuiIykZk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/6FByyzWEDGoO4LQG5Q7IuiIykZk.png?scale-down-to=512",
+              "altText": "abstract land",
+              "resolution": "auto"
+            }
+          },
+          "byrLcPGov": {
+            "type": "image",
+            "value": {
+              "id": "ZB4cUCuJxjCKYXUGYI9qFISzLM.png",
+              "url": "https://framerusercontent.com/images/ZB4cUCuJxjCKYXUGYI9qFISzLM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ZB4cUCuJxjCKYXUGYI9qFISzLM.png?scale-down-to=512",
+              "altText": "drink in sunset background",
+              "resolution": "auto"
+            }
+          },
+          "ZQ3L26KQo": {
+            "type": "string",
+            "value": "Framing the Unseen continues as an exploration of subtlety and perspective.",
+            "valueByLocale": {}
+          },
+          "XXZrJddnx": {
+            "type": "string",
+            "value": "Framing the Unseen was developed to highlight the quiet details that often go unnoticed. The goal was to create imagery that feels subtle, refined, and deeply intentional — drawing much more attention to beautiful and deep moments that reveal more than what first meets the eye.",
+            "valueByLocale": {}
+          }
+        }
+      },
+      {
+        "id": "wdAXDn978",
+        "slug": "the-art-of-natural-light-photography",
+        "draft": false,
+        "fieldData": {
+          "QOVjKvzHc": {
+            "type": "string",
+            "value": "The Art of Natural Light Photography",
+            "valueByLocale": {}
+          },
+          "Sz3I5zvv6": {
+            "type": "string",
+            "value": "James Karl",
+            "valueByLocale": {}
+          },
+          "s6Kycyshm": {
+            "type": "string",
+            "value": "Guide",
+            "valueByLocale": {}
+          },
+          "CnbgY3fCS": {
+            "type": "string",
+            "value": "4 min",
+            "valueByLocale": {}
+          },
+          "NLBTqegIU": {
+            "type": "string",
+            "value": "02-11-25",
+            "valueByLocale": {}
+          },
+          "s0sygdLt2": {
+            "type": "image",
+            "value": {
+              "id": "y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "url": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png?scale-down-to=512",
+              "altText": "men with red cap",
+              "resolution": "auto"
+            }
+          },
+          "VbLqnmjOF": {
+            "type": "image",
+            "value": {
+              "id": "5OhXcUImmNUucCA3XPepFcJV6oA.png",
+              "url": "https://framerusercontent.com/images/5OhXcUImmNUucCA3XPepFcJV6oA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/5OhXcUImmNUucCA3XPepFcJV6oA.png?scale-down-to=512",
+              "altText": "red fabric",
+              "resolution": "auto"
+            }
+          },
+          "dbVt1wlJI": {
+            "type": "image",
+            "value": {
+              "id": "iFcOw6ZtQmgg1MvpPeScthZwMuU.png",
+              "url": "https://framerusercontent.com/images/iFcOw6ZtQmgg1MvpPeScthZwMuU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/iFcOw6ZtQmgg1MvpPeScthZwMuU.png?scale-down-to=512",
+              "altText": "perfume bottle",
+              "resolution": "auto"
+            }
+          },
+          "F4mCukKv8": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.",
+            "valueByLocale": {}
+          },
+          "MtNOOLTh5": {
+            "type": "image",
+            "value": {
+              "id": "dXz9Clsvg1QiscaR9kVxgh9BX8.png",
+              "url": "https://framerusercontent.com/images/dXz9Clsvg1QiscaR9kVxgh9BX8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/dXz9Clsvg1QiscaR9kVxgh9BX8.png?scale-down-to=512",
+              "altText": "2 men in poppy field",
+              "resolution": "auto"
+            }
+          },
+          "BbmNgaTCx": {
+            "type": "image",
+            "value": {
+              "id": "MV6D6rDt6m03Jc5CcQdQI1uU9A8.png",
+              "url": "https://framerusercontent.com/images/MV6D6rDt6m03Jc5CcQdQI1uU9A8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/MV6D6rDt6m03Jc5CcQdQI1uU9A8.png?scale-down-to=512",
+              "altText": "stylish potrait",
+              "resolution": "auto"
+            }
+          },
+          "Wc0G8AMn3": {
+            "type": "image",
+            "value": {
+              "id": "GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "url": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png?scale-down-to=512",
+              "altText": "relexed pose",
+              "resolution": "auto"
+            }
+          },
+          "ys1fw9TFz": {
+            "type": "image",
+            "value": {
+              "id": "24Odnf29faoBPnokIguh0wfBA.png",
+              "url": "https://framerusercontent.com/images/24Odnf29faoBPnokIguh0wfBA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/24Odnf29faoBPnokIguh0wfBA.png?scale-down-to=512",
+              "altText": "women with a hat",
+              "resolution": "auto"
+            }
+          },
+          "eyn9MOHAx": {
+            "type": "image",
+            "value": {
+              "id": "CPQiFZQ35E3TU7lLJdUIBwVdeak.png",
+              "url": "https://framerusercontent.com/images/CPQiFZQ35E3TU7lLJdUIBwVdeak.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/CPQiFZQ35E3TU7lLJdUIBwVdeak.png?scale-down-to=512",
+              "altText": "orange jelly fish",
+              "resolution": "auto"
+            }
+          },
+          "PXO6I2g6J": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity ",
+            "valueByLocale": {}
+          },
+          "DsdpBkKSG": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.",
+            "valueByLocale": {}
+          },
+          "jQJzVTWyM": {
+            "type": "image",
+            "value": {
+              "id": "nc0RL687SrTdMtyjZeFCKFrY.png",
+              "url": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png?scale-down-to=512",
+              "altText": "mystic red field",
+              "resolution": "auto"
+            }
+          },
+          "byrLcPGov": {
+            "type": "image",
+            "value": {
+              "id": "1KS8yQEnbnZXhXrm410uuos8.png",
+              "url": "https://framerusercontent.com/images/1KS8yQEnbnZXhXrm410uuos8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/1KS8yQEnbnZXhXrm410uuos8.png?scale-down-to=512",
+              "altText": "Mystery potrait",
+              "resolution": "auto"
+            }
+          },
+          "ZQ3L26KQo": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity for their new product launch.",
+            "valueByLocale": {}
+          },
+          "XXZrJddnx": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.Aurora Skincare approached me to create a visual identity for their new product launch. ",
+            "valueByLocale": {}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "HVZRdk1KA",
+    "name": "Project detail",
+    "fields": [
+      {
+        "id": "QKo5j1Ce7",
+        "name": "Title",
+        "type": "string"
+      },
+      {
+        "id": "Y3f_Y15It",
+        "name": "varient",
+        "type": "enum"
+      },
+      {
+        "id": "coWQdDHE4",
+        "name": "Client",
+        "type": "string"
+      },
+      {
+        "id": "JzZ1NZAQQ",
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "id": "ab3Nh65Pa",
+        "name": "Year",
+        "type": "string"
+      },
+      {
+        "id": "e_fbTMuZE",
+        "name": "Image 1",
+        "type": "image"
+      },
+      {
+        "id": "OHndWzJNZ",
+        "name": "Image 2",
+        "type": "image"
+      },
+      {
+        "id": "s2GfP38km",
+        "name": "Image 3",
+        "type": "image"
+      },
+      {
+        "id": "ko7UdwH1C",
+        "name": "Image 4",
+        "type": "image"
+      },
+      {
+        "id": "g1oqMYKRp",
+        "name": "About",
+        "type": "string"
+      },
+      {
+        "id": "MZBajdHwq",
+        "name": "client img",
+        "type": "image"
+      },
+      {
+        "id": "eYEj91lAX",
+        "name": "testimonials",
+        "type": "string"
+      },
+      {
+        "id": "PfxqmzevP",
+        "name": "Clent name",
+        "type": "string"
+      },
+      {
+        "id": "oKOTVKFrj",
+        "name": "status",
+        "type": "string"
+      },
+      {
+        "id": "R7vZx6pFt",
+        "name": "Image 5",
+        "type": "image"
+      },
+      {
+        "id": "HqsqMakXT",
+        "name": "Image 6",
+        "type": "image"
+      },
+      {
+        "id": "y20ljI9DF",
+        "name": "Image 7",
+        "type": "image"
+      },
+      {
+        "id": "xihOYWxoj",
+        "name": "Image 8",
+        "type": "image"
+      },
+      {
+        "id": "XjUanb2mV",
+        "name": "Image 9",
+        "type": "image"
+      },
+      {
+        "id": "RuHZ4BzBS",
+        "name": "Image 10",
+        "type": "image"
+      },
+      {
+        "id": "SDChMkLm2",
+        "name": "Image 11",
+        "type": "image"
+      },
+      {
+        "id": "C6M7NB60B",
+        "name": "Image 12",
+        "type": "image"
+      },
+      {
+        "id": "n35JUL24v",
+        "name": "Image 13",
+        "type": "image"
+      }
+    ],
+    "items": [
+      {
+        "id": "CODnfHcRO",
+        "slug": "goldit",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Goldit",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 4"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Goldit Industries",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Photography",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2024",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "GrF5UU03UKDpsxHz8d7tdJiKT8M.png",
+              "url": "https://framerusercontent.com/images/GrF5UU03UKDpsxHz8d7tdJiKT8M.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GrF5UU03UKDpsxHz8d7tdJiKT8M.png?scale-down-to=512",
+              "altText": "abstract pots",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "bOGWuhX7eg7H9lnrGrmcf2ytSa4.png",
+              "url": "https://framerusercontent.com/images/bOGWuhX7eg7H9lnrGrmcf2ytSa4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/bOGWuhX7eg7H9lnrGrmcf2ytSa4.png?scale-down-to=512",
+              "altText": "men with big red hat",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "BM4XZJM3SmXSPNY3UtPia8U8.png",
+              "url": "https://framerusercontent.com/images/BM4XZJM3SmXSPNY3UtPia8U8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BM4XZJM3SmXSPNY3UtPia8U8.png?scale-down-to=512",
+              "altText": "women with red sweater",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "aEmHeYrutupEo06pMi8mR0Rp5xU.png",
+              "url": "https://framerusercontent.com/images/aEmHeYrutupEo06pMi8mR0Rp5xU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/aEmHeYrutupEo06pMi8mR0Rp5xU.png?scale-down-to=512",
+              "altText": "deep red cup",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Gold It approached the project with a vision to create a bold and elevated visual identity for their latest launch. The goal was to produce imagery that felt striking, luxurious, and aligned with their premium aesthetic.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "FtXPlBbhzeTlPjUMlct16A4EpCM.jpeg",
+              "url": "https://framerusercontent.com/images/FtXPlBbhzeTlPjUMlct16A4EpCM.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/FtXPlBbhzeTlPjUMlct16A4EpCM.jpeg?scale-down-to=512",
+              "altText": "men with glasses",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with the team felt seamless from start to finish, and the final visuals captured a level of detail and richness that elevated our brand beyond expectations.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Jhosh Weather",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "CEO @ Goldit",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "jycWzFro8joB3EgGJnjzbbPlhs.png",
+              "url": "https://framerusercontent.com/images/jycWzFro8joB3EgGJnjzbbPlhs.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jycWzFro8joB3EgGJnjzbbPlhs.png?scale-down-to=512",
+              "altText": "men with red cape",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "TLdGGSAjK3QwQAN3cX2ioEsmcM.png",
+              "url": "https://framerusercontent.com/images/TLdGGSAjK3QwQAN3cX2ioEsmcM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/TLdGGSAjK3QwQAN3cX2ioEsmcM.png?scale-down-to=512",
+              "altText": "red men in farmland",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "BzKg7zRoZwvVamfJXssdTPyxhKo.png",
+              "url": "https://framerusercontent.com/images/BzKg7zRoZwvVamfJXssdTPyxhKo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BzKg7zRoZwvVamfJXssdTPyxhKo.png?scale-down-to=512",
+              "altText": "printed fabric",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "kjxGGAvW1WSGfPhwHxYxDci2h8.png",
+              "url": "https://framerusercontent.com/images/kjxGGAvW1WSGfPhwHxYxDci2h8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/kjxGGAvW1WSGfPhwHxYxDci2h8.png?scale-down-to=512",
+              "altText": "men in red dress",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "nc0RL687SrTdMtyjZeFCKFrY.png",
+              "url": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/nc0RL687SrTdMtyjZeFCKFrY.png?scale-down-to=512",
+              "altText": "men in mystic red field",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "1dvC4eT6kDwfsUasgLbP2C3FwTw.png",
+              "url": "https://framerusercontent.com/images/1dvC4eT6kDwfsUasgLbP2C3FwTw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/1dvC4eT6kDwfsUasgLbP2C3FwTw.png?scale-down-to=512",
+              "altText": "ginger head with red gloves",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "url": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/y6GKbssmnlthZ01muMYTK6IrFQE.png?scale-down-to=512",
+              "altText": "men with red hat",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "dXz9Clsvg1QiscaR9kVxgh9BX8.png",
+              "url": "https://framerusercontent.com/images/dXz9Clsvg1QiscaR9kVxgh9BX8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/dXz9Clsvg1QiscaR9kVxgh9BX8.png?scale-down-to=512",
+              "altText": "2 men in poppy field",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "url": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GA9qlTees33Y1sXMmWZZuNU3v4.png?scale-down-to=512",
+              "altText": "mne on red ground",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "GSgkKK8gM",
+        "slug": "franifed",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Franifed",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 2"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Franifid",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Album Shoot",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2021",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "rcvoe45bTwPnQz3niB8Af6d0FMs.png",
+              "url": "https://framerusercontent.com/images/rcvoe45bTwPnQz3niB8Af6d0FMs.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/rcvoe45bTwPnQz3niB8Af6d0FMs.png?scale-down-to=512",
+              "altText": "Blurry women in hallways",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "CjO8zGoX7HRsuPAExEIdx100Z8.png",
+              "url": "https://framerusercontent.com/images/CjO8zGoX7HRsuPAExEIdx100Z8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/CjO8zGoX7HRsuPAExEIdx100Z8.png?scale-down-to=512",
+              "altText": "sleek black car",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "GbgXM3eVyjMHo946vJiwY0sbI.png",
+              "url": "https://framerusercontent.com/images/GbgXM3eVyjMHo946vJiwY0sbI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/GbgXM3eVyjMHo946vJiwY0sbI.png?scale-down-to=512",
+              "altText": "blurry men",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "26oeK9DPgzwzK3PFgAEb9TsY9M.png",
+              "url": "https://framerusercontent.com/images/26oeK9DPgzwzK3PFgAEb9TsY9M.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/26oeK9DPgzwzK3PFgAEb9TsY9M.png?scale-down-to=512",
+              "altText": "men with glasses",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Franifed approached the project with a vision to build a modern and distinctive visual presence for their brand. The goal was to create imagery that felt clean, confident, and aligned with their forward-thinking aesthetic.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "Pv18fuO7S0YVvAK02jG9Lr1bhU.jpeg",
+              "url": "https://framerusercontent.com/images/Pv18fuO7S0YVvAK02jG9Lr1bhU.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/Pv18fuO7S0YVvAK02jG9Lr1bhU.jpeg?scale-down-to=512",
+              "altText": "side profile pic of a men",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with them was an exceptional experience - the process felt clear and collaborative, and the final visuals captured our brand’s identityperfectly.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Fred Rogers",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "Head executive",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "osV5pge4pkBH74vD1LQ9QJLM.png",
+              "url": "https://framerusercontent.com/images/osV5pge4pkBH74vD1LQ9QJLM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/osV5pge4pkBH74vD1LQ9QJLM.png?scale-down-to=512",
+              "altText": "mne with sweater on face",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "tARAteJcT4dkLyNYs46atk7wdA.png",
+              "url": "https://framerusercontent.com/images/tARAteJcT4dkLyNYs46atk7wdA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/tARAteJcT4dkLyNYs46atk7wdA.png?scale-down-to=512",
+              "altText": "white blast",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png",
+              "url": "https://framerusercontent.com/images/yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/yqD2Mhso9Zwn7z5xlrK0TVWB8Y.png?scale-down-to=512",
+              "altText": "men in white hoddie",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "XwBoPygGa5V07p4sfUtEbQgsVk.png",
+              "url": "https://framerusercontent.com/images/XwBoPygGa5V07p4sfUtEbQgsVk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/XwBoPygGa5V07p4sfUtEbQgsVk.png?scale-down-to=512",
+              "altText": "blurry shadow",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "blr7MUeSH5nlOzNX4eeqyGTPDo.png",
+              "url": "https://framerusercontent.com/images/blr7MUeSH5nlOzNX4eeqyGTPDo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/blr7MUeSH5nlOzNX4eeqyGTPDo.png?scale-down-to=512",
+              "altText": "metal chair",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "cqv8IF7gQzNq79ZARSwHb9l2mTA.png",
+              "url": "https://framerusercontent.com/images/cqv8IF7gQzNq79ZARSwHb9l2mTA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cqv8IF7gQzNq79ZARSwHb9l2mTA.png?scale-down-to=512",
+              "altText": "men in unique pose",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "lCYj7SGDegHtr5s6c7DKLp9PJn0.png",
+              "url": "https://framerusercontent.com/images/lCYj7SGDegHtr5s6c7DKLp9PJn0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/lCYj7SGDegHtr5s6c7DKLp9PJn0.png?scale-down-to=512",
+              "altText": "mne in cool metalic cloths",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "oHdhZGuuofOLnnTbmDEzX5z9Mr0.png",
+              "url": "https://framerusercontent.com/images/oHdhZGuuofOLnnTbmDEzX5z9Mr0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/oHdhZGuuofOLnnTbmDEzX5z9Mr0.png?scale-down-to=512",
+              "altText": "water swirl",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "HXphtPX6yoOxrQ84EHlFS4zxgco.png",
+              "url": "https://framerusercontent.com/images/HXphtPX6yoOxrQ84EHlFS4zxgco.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/HXphtPX6yoOxrQ84EHlFS4zxgco.png?scale-down-to=512",
+              "altText": "blurry women in hallway",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "pwtFbow3Y",
+        "slug": "connected",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Connect",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 3"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Connected",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Album Shoot",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2025",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "iPuBCJPcv9Ebfzcqm7g5EX5St7k.png",
+              "url": "https://framerusercontent.com/images/iPuBCJPcv9Ebfzcqm7g5EX5St7k.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/iPuBCJPcv9Ebfzcqm7g5EX5St7k.png?scale-down-to=512",
+              "altText": "men with basketball in sky",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "E2QzwDPQG3P5mbNMPujim3Sv8.png",
+              "url": "https://framerusercontent.com/images/E2QzwDPQG3P5mbNMPujim3Sv8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/E2QzwDPQG3P5mbNMPujim3Sv8.png?scale-down-to=512",
+              "altText": "tennis attire",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "BRURdPk6opNMOGJ9C5nBbhk59k8.png",
+              "url": "https://framerusercontent.com/images/BRURdPk6opNMOGJ9C5nBbhk59k8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BRURdPk6opNMOGJ9C5nBbhk59k8.png?scale-down-to=512",
+              "altText": "men with sports shirt",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "url": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png?scale-down-to=512",
+              "altText": "menin sports wear",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Connected approached the project with a vision to create a cohesive and engaging visual identity for their growing platform. The goal was to craft imagery that felt modern, approachable, and aligned with their community-driven brand presence.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "url": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png?scale-down-to=512",
+              "altText": "abstract face",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with you was a smooth and inspiring experience - the final visuals captured the essence of our community and brought our brand story to life with clarity and authenticity.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Corner Stone",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "Creative director",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "ED7oY9NDxEB9Sj09e1hL5jt9s0.png",
+              "url": "https://framerusercontent.com/images/ED7oY9NDxEB9Sj09e1hL5jt9s0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ED7oY9NDxEB9Sj09e1hL5jt9s0.png?scale-down-to=512",
+              "altText": "men with colorful cloths",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "gvx8X8Jm6EbV7db385fz5CFI3c.png",
+              "url": "https://framerusercontent.com/images/gvx8X8Jm6EbV7db385fz5CFI3c.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/gvx8X8Jm6EbV7db385fz5CFI3c.png?scale-down-to=512",
+              "altText": "player with basketball",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "mHoFCExhmA83caFrk5loY7C0.png",
+              "url": "https://framerusercontent.com/images/mHoFCExhmA83caFrk5loY7C0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/mHoFCExhmA83caFrk5loY7C0.png?scale-down-to=512",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "UxS14RBblVKPMP9ySHyKt5dZCQ.png",
+              "url": "https://framerusercontent.com/images/UxS14RBblVKPMP9ySHyKt5dZCQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UxS14RBblVKPMP9ySHyKt5dZCQ.png?scale-down-to=512",
+              "altText": "basketball player in air",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "E2QzwDPQG3P5mbNMPujim3Sv8.png",
+              "url": "https://framerusercontent.com/images/E2QzwDPQG3P5mbNMPujim3Sv8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/E2QzwDPQG3P5mbNMPujim3Sv8.png?scale-down-to=512",
+              "altText": "tennis attire",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "CCCXEcI7ZZnAFlmgvUf2XmPwfQ.png",
+              "url": "https://framerusercontent.com/images/CCCXEcI7ZZnAFlmgvUf2XmPwfQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/CCCXEcI7ZZnAFlmgvUf2XmPwfQ.png?scale-down-to=512",
+              "altText": "cycling player sweating",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "url": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png?scale-down-to=512",
+              "altText": "men in sports wear",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "iPuBCJPcv9Ebfzcqm7g5EX5St7k.png",
+              "url": "https://framerusercontent.com/images/iPuBCJPcv9Ebfzcqm7g5EX5St7k.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/iPuBCJPcv9Ebfzcqm7g5EX5St7k.png?scale-down-to=512",
+              "altText": "basketball player mid air",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "BRURdPk6opNMOGJ9C5nBbhk59k8.png",
+              "url": "https://framerusercontent.com/images/BRURdPk6opNMOGJ9C5nBbhk59k8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BRURdPk6opNMOGJ9C5nBbhk59k8.png?scale-down-to=512",
+              "altText": "men with sports shirt",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "uR5_Hh4N1",
+        "slug": "porto",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Porto",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 4"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Porto",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Photography",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2020",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "3uZZsRmxD0OvDhreqYEAS3lrE.png",
+              "url": "https://framerusercontent.com/images/3uZZsRmxD0OvDhreqYEAS3lrE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/3uZZsRmxD0OvDhreqYEAS3lrE.png?scale-down-to=512",
+              "altText": "phone",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "k1buPmD1eZp9T9TrjROTYx9X3k.png",
+              "url": "https://framerusercontent.com/images/k1buPmD1eZp9T9TrjROTYx9X3k.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/k1buPmD1eZp9T9TrjROTYx9X3k.png?scale-down-to=512",
+              "altText": "laptop",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "cBtJ1jWbe1eFYJIuf3Tznm88pg.png",
+              "url": "https://framerusercontent.com/images/cBtJ1jWbe1eFYJIuf3Tznm88pg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cBtJ1jWbe1eFYJIuf3Tznm88pg.png?scale-down-to=512",
+              "altText": "classic white car",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "K9fWb3hVp4SiqtelEg1cyfW6ybs.png",
+              "url": "https://framerusercontent.com/images/K9fWb3hVp4SiqtelEg1cyfW6ybs.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/K9fWb3hVp4SiqtelEg1cyfW6ybs.png?scale-down-to=512",
+              "altText": "white phone in hand",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Porto approached the project with a vision to establish a refined and versatile visual identity for their brand. The goal was to create imagery that felt timeless, structured, and aligned with their clean, contemporary aesthetic",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "bDKMbcPAvq2NV7UPTBQOM1VL3s.png",
+              "url": "https://framerusercontent.com/images/bDKMbcPAvq2NV7UPTBQOM1VL3s.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/bDKMbcPAvq2NV7UPTBQOM1VL3s.png?scale-down-to=512",
+              "altText": "men profile photo",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with you was a smooth and inspiring experience - the final visuals captured the essence of our community and brought our brand story to life with clarity and authenticity.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Martin Fins",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "CEO @ Porto",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "9ENxrOxBAiUceM35a1rSWl2A0s.png",
+              "url": "https://framerusercontent.com/images/9ENxrOxBAiUceM35a1rSWl2A0s.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/9ENxrOxBAiUceM35a1rSWl2A0s.png?scale-down-to=512",
+              "altText": "grey device",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "k1buPmD1eZp9T9TrjROTYx9X3k.png",
+              "url": "https://framerusercontent.com/images/k1buPmD1eZp9T9TrjROTYx9X3k.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/k1buPmD1eZp9T9TrjROTYx9X3k.png?scale-down-to=512",
+              "altText": "laptop",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "3uZZsRmxD0OvDhreqYEAS3lrE.png",
+              "url": "https://framerusercontent.com/images/3uZZsRmxD0OvDhreqYEAS3lrE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/3uZZsRmxD0OvDhreqYEAS3lrE.png?scale-down-to=512",
+              "altText": "phone",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "IN3kJAw8r0gl4d9X1AicBR8M2o.png",
+              "url": "https://framerusercontent.com/images/IN3kJAw8r0gl4d9X1AicBR8M2o.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/IN3kJAw8r0gl4d9X1AicBR8M2o.png?scale-down-to=512",
+              "altText": "laptop and notebook on desk",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "5zVQzCh03wNnOwfBvamBTUdoe8.png",
+              "url": "https://framerusercontent.com/images/5zVQzCh03wNnOwfBvamBTUdoe8.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/5zVQzCh03wNnOwfBvamBTUdoe8.png?scale-down-to=512",
+              "altText": "black device",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "mAGooVeDGlJNLyOZ9PpPhk5iPCA.png",
+              "url": "https://framerusercontent.com/images/mAGooVeDGlJNLyOZ9PpPhk5iPCA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/mAGooVeDGlJNLyOZ9PpPhk5iPCA.png?scale-down-to=512",
+              "altText": "phone in hand",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "yqFtfB463zcqNxV4eeILAHYZuso.png",
+              "url": "https://framerusercontent.com/images/yqFtfB463zcqNxV4eeILAHYZuso.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/yqFtfB463zcqNxV4eeILAHYZuso.png?scale-down-to=512",
+              "altText": "blurry cat",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "d0JdPhOvtao0P9cBmnk2f8KX6Xk.png",
+              "url": "https://framerusercontent.com/images/d0JdPhOvtao0P9cBmnk2f8KX6Xk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/d0JdPhOvtao0P9cBmnk2f8KX6Xk.png?scale-down-to=512",
+              "altText": "laptop",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "LFHycKf6SearhOSxZpqJqBijlrk.png",
+              "url": "https://framerusercontent.com/images/LFHycKf6SearhOSxZpqJqBijlrk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/LFHycKf6SearhOSxZpqJqBijlrk.png?scale-down-to=512",
+              "altText": "greyscaled potrait of an asian man",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "qJjN1wRYc",
+        "slug": "positive",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Positiv",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 2"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Positiv Comp",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Shoot",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2024",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "Cj3TyOFpAxH28D6AOzPVJcnwu8M.png",
+              "url": "https://framerusercontent.com/images/Cj3TyOFpAxH28D6AOzPVJcnwu8M.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Cj3TyOFpAxH28D6AOzPVJcnwu8M.png?scale-down-to=512",
+              "altText": "perfume with denim cover",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "e3BY00n9AwNWvOuyWpDnjAAIjaE.png",
+              "url": "https://framerusercontent.com/images/e3BY00n9AwNWvOuyWpDnjAAIjaE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/e3BY00n9AwNWvOuyWpDnjAAIjaE.png?scale-down-to=512",
+              "altText": "decorated table",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "SfhTJ4pbX6qvX3YXX4cmJu1ZkKg.png",
+              "url": "https://framerusercontent.com/images/SfhTJ4pbX6qvX3YXX4cmJu1ZkKg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/SfhTJ4pbX6qvX3YXX4cmJu1ZkKg.png?scale-down-to=512",
+              "altText": "juice bottle",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "iEaPZUv4GCUQNaGVenS2DqOE0PU.png",
+              "url": "https://framerusercontent.com/images/iEaPZUv4GCUQNaGVenS2DqOE0PU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/iEaPZUv4GCUQNaGVenS2DqOE0PU.png?scale-down-to=512",
+              "altText": "3 people taking photo",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Positiv approached the project with a vision to create a bright and uplifting visual identity for their brand. The goal was to craft imagery that feels vibrant, clean, and aligned with their optimistic and forward-looking aesthetic.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "nxt9BlV10O59lPJWDEtSOa3VTKU.png",
+              "url": "https://framerusercontent.com/images/nxt9BlV10O59lPJWDEtSOa3VTKU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/nxt9BlV10O59lPJWDEtSOa3VTKU.png?scale-down-to=512",
+              "altText": "men in orange attire",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Collaborating with this team was effortless from concept to completion - the final visuals captured our brand’s sophistication and delivered a polished identity that truly stands out.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Filip Jr.",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "COO @ positiv",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "EqtSYJh63KtY0IOYd7S3KJEJA.png",
+              "url": "https://framerusercontent.com/images/EqtSYJh63KtY0IOYd7S3KJEJA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/EqtSYJh63KtY0IOYd7S3KJEJA.png?scale-down-to=512",
+              "altText": "selfie from top view",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "0BNT4q9rDls54jd7AY3EjTNdQuI.png",
+              "url": "https://framerusercontent.com/images/0BNT4q9rDls54jd7AY3EjTNdQuI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/0BNT4q9rDls54jd7AY3EjTNdQuI.png?scale-down-to=512",
+              "altText": "disco ball in hand",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "WijmD00qjEFJyLZ8bbXbtYZns.png",
+              "url": "https://framerusercontent.com/images/WijmD00qjEFJyLZ8bbXbtYZns.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/WijmD00qjEFJyLZ8bbXbtYZns.png?scale-down-to=512",
+              "altText": "mne with big ski glasses",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "hXjrBnN3VwSbxjPmUHWJnX0yBfc.png",
+              "url": "https://framerusercontent.com/images/hXjrBnN3VwSbxjPmUHWJnX0yBfc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/hXjrBnN3VwSbxjPmUHWJnX0yBfc.png?scale-down-to=512",
+              "altText": "bubbly purse",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "UWmrMUJ6S0GITJDDI2U1lhWl24.png",
+              "url": "https://framerusercontent.com/images/UWmrMUJ6S0GITJDDI2U1lhWl24.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UWmrMUJ6S0GITJDDI2U1lhWl24.png?scale-down-to=512",
+              "altText": "cream product shot",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "url": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png?scale-down-to=512",
+              "altText": "abstract portrait",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "NvBhrUcEWEAf80DJRRgMwnGf0Q.png",
+              "url": "https://framerusercontent.com/images/NvBhrUcEWEAf80DJRRgMwnGf0Q.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/NvBhrUcEWEAf80DJRRgMwnGf0Q.png?scale-down-to=512",
+              "altText": "pump bottle",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "JhOkqqC48GdTOVvB72YT1bG83eg.png",
+              "url": "https://framerusercontent.com/images/JhOkqqC48GdTOVvB72YT1bG83eg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/JhOkqqC48GdTOVvB72YT1bG83eg.png?scale-down-to=512",
+              "altText": "men with braids",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "Oqo3XqHWDFWSjfjUJKxhYLIKWQ.png",
+              "url": "https://framerusercontent.com/images/Oqo3XqHWDFWSjfjUJKxhYLIKWQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Oqo3XqHWDFWSjfjUJKxhYLIKWQ.png?scale-down-to=512",
+              "altText": "hand in light",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "HLQuXrS7s",
+        "slug": "horizon",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Horizon",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 3"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Horizon",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Shoot",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2024",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "7Lhf7v7LWfqu7QFjNEUyOXCwTb4.png",
+              "url": "https://framerusercontent.com/images/7Lhf7v7LWfqu7QFjNEUyOXCwTb4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/7Lhf7v7LWfqu7QFjNEUyOXCwTb4.png?scale-down-to=512",
+              "altText": "retro car back image",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "cHkvGdBU4PO4Jnyx88s87r3x3I.png",
+              "url": "https://framerusercontent.com/images/cHkvGdBU4PO4Jnyx88s87r3x3I.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cHkvGdBU4PO4Jnyx88s87r3x3I.png?scale-down-to=512",
+              "altText": "brown retro car",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "bWHdMCfUvmTP6ZaatfmyeKw3fE.png",
+              "url": "https://framerusercontent.com/images/bWHdMCfUvmTP6ZaatfmyeKw3fE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/bWHdMCfUvmTP6ZaatfmyeKw3fE.png?scale-down-to=512",
+              "altText": "brown retro card front",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "Yji72n9JZLGEVsRcC2hKRQJCKI.png",
+              "url": "https://framerusercontent.com/images/Yji72n9JZLGEVsRcC2hKRQJCKI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Yji72n9JZLGEVsRcC2hKRQJCKI.png?scale-down-to=512",
+              "altText": "red retro car side view",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Horizon approached the project with a vision to craft a bold and future-focused visual identity. The goal was to create imagery that feels expansive, refined, and aligned with their innovative and forward-driven brand direction.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "url": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/YzKQ99IGh8FfkrLiHSpIBmjTo.png?scale-down-to=512",
+              "altText": "mne with sports wear",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with them was a truly collaborative experience - the final visuals captured our forward-thinking vision and translated it into a refined identity.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Benjamin Stephen",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "CEO @ Horizon",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "oMLQBVnAhyU50FZHEqJUeKFTjLg.png",
+              "url": "https://framerusercontent.com/images/oMLQBVnAhyU50FZHEqJUeKFTjLg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/oMLQBVnAhyU50FZHEqJUeKFTjLg.png?scale-down-to=512",
+              "altText": "black car in orange room",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "cBtJ1jWbe1eFYJIuf3Tznm88pg.png",
+              "url": "https://framerusercontent.com/images/cBtJ1jWbe1eFYJIuf3Tznm88pg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cBtJ1jWbe1eFYJIuf3Tznm88pg.png?scale-down-to=512",
+              "altText": "white car top view",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "cHkvGdBU4PO4Jnyx88s87r3x3I.png",
+              "url": "https://framerusercontent.com/images/cHkvGdBU4PO4Jnyx88s87r3x3I.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/cHkvGdBU4PO4Jnyx88s87r3x3I.png?scale-down-to=512",
+              "altText": "brown retro car back view",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "ZrqjyhGxTckeiCNZxfQ4kag3OFA.png",
+              "url": "https://framerusercontent.com/images/ZrqjyhGxTckeiCNZxfQ4kag3OFA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ZrqjyhGxTckeiCNZxfQ4kag3OFA.png?scale-down-to=512",
+              "altText": "red retro car front view",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "bWHdMCfUvmTP6ZaatfmyeKw3fE.png",
+              "url": "https://framerusercontent.com/images/bWHdMCfUvmTP6ZaatfmyeKw3fE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/bWHdMCfUvmTP6ZaatfmyeKw3fE.png?scale-down-to=512",
+              "altText": "brown car",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "zgEusZLc6zEsZWOE0n3c6xuAw.png",
+              "url": "https://framerusercontent.com/images/zgEusZLc6zEsZWOE0n3c6xuAw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/zgEusZLc6zEsZWOE0n3c6xuAw.png?scale-down-to=512",
+              "altText": "old school car near a tree",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "Yji72n9JZLGEVsRcC2hKRQJCKI.png",
+              "url": "https://framerusercontent.com/images/Yji72n9JZLGEVsRcC2hKRQJCKI.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Yji72n9JZLGEVsRcC2hKRQJCKI.png?scale-down-to=512",
+              "altText": "red retro car side view",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "nPxff2ry0Yl2XeTfVVTFXqTvHE.png",
+              "url": "https://framerusercontent.com/images/nPxff2ry0Yl2XeTfVVTFXqTvHE.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/nPxff2ry0Yl2XeTfVVTFXqTvHE.png?scale-down-to=512",
+              "altText": "sports car back view",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "78VdRDd9em2PCsTTjdllFUNJ9QQ.png",
+              "url": "https://framerusercontent.com/images/78VdRDd9em2PCsTTjdllFUNJ9QQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/78VdRDd9em2PCsTTjdllFUNJ9QQ.png?scale-down-to=512",
+              "altText": "old school car",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "zzfIyGunK",
+        "slug": "flavia-caps",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Flavia caps",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 4"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Flavia",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Photography",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2026",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "PFffuhEj5ievSwfubT7yq4hf1yg.png",
+              "url": "https://framerusercontent.com/images/PFffuhEj5ievSwfubT7yq4hf1yg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/PFffuhEj5ievSwfubT7yq4hf1yg.png?scale-down-to=512",
+              "altText": "dessert",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "rzzTH0tvs8EmiB2xb3LJNbYieaM.png",
+              "url": "https://framerusercontent.com/images/rzzTH0tvs8EmiB2xb3LJNbYieaM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/rzzTH0tvs8EmiB2xb3LJNbYieaM.png?scale-down-to=512",
+              "altText": "3 pastries",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "9LEddgTg6HYGg9XkAXPrSO6Mlc.png",
+              "url": "https://framerusercontent.com/images/9LEddgTg6HYGg9XkAXPrSO6Mlc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/9LEddgTg6HYGg9XkAXPrSO6Mlc.png?scale-down-to=512",
+              "altText": "cherry cake",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "jXkZ85ew8InUQWPV7Lq9INglJk.png",
+              "url": "https://framerusercontent.com/images/jXkZ85ew8InUQWPV7Lq9INglJk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jXkZ85ew8InUQWPV7Lq9INglJk.png?scale-down-to=512",
+              "altText": "cake with flowers",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Flavia Caps approached the project with a vision to create a distinctive and fashion-forward visual identity for their latest cake collection. The goal was to craft imagery that feels pretty, refined, and aligned with their asthetic, style-driven brand aesthetic.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "jhP7zoundHFdzyiULEEZbIxF0.png",
+              "url": "https://framerusercontent.com/images/jhP7zoundHFdzyiULEEZbIxF0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jhP7zoundHFdzyiULEEZbIxF0.png?scale-down-to=512",
+              "altText": "women with blurry face",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working with them was an inspiring experience — the final visuals beautifully captured our brand’s style and personality, delivering a refined identity.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Fiona",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "Owner of flavia",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "Wk8ajiW1O1HJXnPtkWxEp7bqgM.png",
+              "url": "https://framerusercontent.com/images/Wk8ajiW1O1HJXnPtkWxEp7bqgM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Wk8ajiW1O1HJXnPtkWxEp7bqgM.png?scale-down-to=512",
+              "altText": "cherry cake",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "qqQJpzJgq8S4XMYJvlyJRQgqHE0.png",
+              "url": "https://framerusercontent.com/images/qqQJpzJgq8S4XMYJvlyJRQgqHE0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/qqQJpzJgq8S4XMYJvlyJRQgqHE0.png?scale-down-to=512",
+              "altText": "3 dome shaped dessert",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "7oudrRP0sEyw8xoJfzBO57H7o.png",
+              "url": "https://framerusercontent.com/images/7oudrRP0sEyw8xoJfzBO57H7o.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/7oudrRP0sEyw8xoJfzBO57H7o.png?scale-down-to=512",
+              "altText": "cake with strawberries and flowers",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "xLtL5So8cGzMqoj6AelAU4KzYs.png",
+              "url": "https://framerusercontent.com/images/xLtL5So8cGzMqoj6AelAU4KzYs.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/xLtL5So8cGzMqoj6AelAU4KzYs.png?scale-down-to=512",
+              "altText": "pastry with cerry on top",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "0QNFVUDA32jEH0Kcig9Cxwsl9w.png",
+              "url": "https://framerusercontent.com/images/0QNFVUDA32jEH0Kcig9Cxwsl9w.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/0QNFVUDA32jEH0Kcig9Cxwsl9w.png?scale-down-to=512",
+              "altText": "cake with flower top",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "qzOMQWYmLRfzn263SNN3M3YszKw.png",
+              "url": "https://framerusercontent.com/images/qzOMQWYmLRfzn263SNN3M3YszKw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/qzOMQWYmLRfzn263SNN3M3YszKw.png?scale-down-to=512",
+              "altText": "fancy cake",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "PFffuhEj5ievSwfubT7yq4hf1yg.png",
+              "url": "https://framerusercontent.com/images/PFffuhEj5ievSwfubT7yq4hf1yg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/PFffuhEj5ievSwfubT7yq4hf1yg.png?scale-down-to=512",
+              "altText": "dessert",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "rzzTH0tvs8EmiB2xb3LJNbYieaM.png",
+              "url": "https://framerusercontent.com/images/rzzTH0tvs8EmiB2xb3LJNbYieaM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/rzzTH0tvs8EmiB2xb3LJNbYieaM.png?scale-down-to=512",
+              "altText": "3 pastries",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "9LEddgTg6HYGg9XkAXPrSO6Mlc.png",
+              "url": "https://framerusercontent.com/images/9LEddgTg6HYGg9XkAXPrSO6Mlc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/9LEddgTg6HYGg9XkAXPrSO6Mlc.png?scale-down-to=512",
+              "altText": "cherry cake",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "tl9StdK_u",
+        "slug": "aurora",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Aurora",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 3"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Aurora Skincare",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Photography",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2024",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "ZjDB961Z0Inrk6thwBLpdviUvgY.jpeg",
+              "url": "https://framerusercontent.com/images/ZjDB961Z0Inrk6thwBLpdviUvgY.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/ZjDB961Z0Inrk6thwBLpdviUvgY.jpeg?scale-down-to=512",
+              "altText": "chair in air",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "y6Y4qZb5PBlzbMEW9fTOxmLvXLk.jpeg",
+              "url": "https://framerusercontent.com/images/y6Y4qZb5PBlzbMEW9fTOxmLvXLk.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/y6Y4qZb5PBlzbMEW9fTOxmLvXLk.jpeg?scale-down-to=512",
+              "altText": "abstract blue shapes",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "B3aY64bdlK9QSDp6F6tY6OcSSE.jpeg",
+              "url": "https://framerusercontent.com/images/B3aY64bdlK9QSDp6F6tY6OcSSE.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/B3aY64bdlK9QSDp6F6tY6OcSSE.jpeg?scale-down-to=512",
+              "altText": "abstract potrait",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "2uQ9k54DCVfm7hCIZoECjMbYl8.jpeg",
+              "url": "https://framerusercontent.com/images/2uQ9k54DCVfm7hCIZoECjMbYl8.jpeg",
+              "thumbnailUrl": "https://framerusercontent.com/images/2uQ9k54DCVfm7hCIZoECjMbYl8.jpeg?scale-down-to=512",
+              "altText": "pink device",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Aurora Skincare approached me to create a visual identity for their new product launch. The goal was to produce imagery that felt fresh, refined, and aligned with their minimalist branding.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "url": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/JZkN9Cy9RcymAQ5Yzw49uYBKEY.png?scale-down-to=512",
+              "altText": "abstract potrait",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "We felt comfortable throughout the shoot, and the final images captured moments we didn’t even realize were happening.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Sarah M.",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "Lifestyle Client",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "KYqHRuWv3BRbYR3jNAjrL3iBVik.jpg",
+              "url": "https://framerusercontent.com/images/KYqHRuWv3BRbYR3jNAjrL3iBVik.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/KYqHRuWv3BRbYR3jNAjrL3iBVik.jpg?scale-down-to=512",
+              "altText": "2 candels",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "5MHVgoPWUQlSxsXNQtDw5nWw.jpg",
+              "url": "https://framerusercontent.com/images/5MHVgoPWUQlSxsXNQtDw5nWw.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/5MHVgoPWUQlSxsXNQtDw5nWw.jpg?scale-down-to=512",
+              "altText": "honey",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "JVjYzqAHuqlReEuklJjElJjVhfQ.jpg",
+              "url": "https://framerusercontent.com/images/JVjYzqAHuqlReEuklJjElJjVhfQ.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/JVjYzqAHuqlReEuklJjElJjVhfQ.jpg?scale-down-to=512",
+              "altText": "moth",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "3BnHFLXcpRLlHMRfNlB67El2ySo.jpg",
+              "url": "https://framerusercontent.com/images/3BnHFLXcpRLlHMRfNlB67El2ySo.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/3BnHFLXcpRLlHMRfNlB67El2ySo.jpg?scale-down-to=512",
+              "altText": "doorway",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "MSqSONTU5XD5YgrKNk65mLfbgus.jpg",
+              "url": "https://framerusercontent.com/images/MSqSONTU5XD5YgrKNk65mLfbgus.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/MSqSONTU5XD5YgrKNk65mLfbgus.jpg?scale-down-to=512",
+              "altText": "lamp",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "I6XipHhE9OD0q7GsA0fzvKWU28.jpg",
+              "url": "https://framerusercontent.com/images/I6XipHhE9OD0q7GsA0fzvKWU28.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/I6XipHhE9OD0q7GsA0fzvKWU28.jpg?scale-down-to=512",
+              "altText": "picnic outside",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "7BiNHVMePgVIC6aneRfktVFHE.jpg",
+              "url": "https://framerusercontent.com/images/7BiNHVMePgVIC6aneRfktVFHE.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/7BiNHVMePgVIC6aneRfktVFHE.jpg?scale-down-to=512",
+              "altText": "tree",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "PGlYcLYUZ8lc23Wb3HBUhhv7Vy4.jpg",
+              "url": "https://framerusercontent.com/images/PGlYcLYUZ8lc23Wb3HBUhhv7Vy4.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/PGlYcLYUZ8lc23Wb3HBUhhv7Vy4.jpg?scale-down-to=512",
+              "altText": "statue",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "K9t6aZbHG0f2ge7n8pt1JbGov7A.jpg",
+              "url": "https://framerusercontent.com/images/K9t6aZbHG0f2ge7n8pt1JbGov7A.jpg",
+              "thumbnailUrl": "https://framerusercontent.com/images/K9t6aZbHG0f2ge7n8pt1JbGov7A.jpg?scale-down-to=512",
+              "altText": "blanket",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "QSousluI6",
+        "slug": "zehrkha",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Zehrkha",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 2"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Zehrkha",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Photography",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2025",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "J0UBQufCyqS99S1NMm0xCrorXU.png",
+              "url": "https://framerusercontent.com/images/J0UBQufCyqS99S1NMm0xCrorXU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/J0UBQufCyqS99S1NMm0xCrorXU.png?scale-down-to=512",
+              "altText": "charms on pants",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "UBsxl1HINxyJ2136ix437qKbhQ.png",
+              "url": "https://framerusercontent.com/images/UBsxl1HINxyJ2136ix437qKbhQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UBsxl1HINxyJ2136ix437qKbhQ.png?scale-down-to=512",
+              "altText": "abstract shapes on fabric",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "UECLd8sCmmkCQKCPsiOWFeljw.png",
+              "url": "https://framerusercontent.com/images/UECLd8sCmmkCQKCPsiOWFeljw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UECLd8sCmmkCQKCPsiOWFeljw.png?scale-down-to=512",
+              "altText": "floral shirt",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "PcZk5tU5hsM7rWiaConPFVlijw.png",
+              "url": "https://framerusercontent.com/images/PcZk5tU5hsM7rWiaConPFVlijw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/PcZk5tU5hsM7rWiaConPFVlijw.png?scale-down-to=512",
+              "altText": "funky pants",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Zehrkha approached us with a vision to build a visual identity that felt elegant, expressive, and deeply intentional. The goal was to create imagery that reflects their refined aesthetic while maintaining a sense of warmth, clarity, and quiet sophistication",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "JhOkqqC48GdTOVvB72YT1bG83eg.png",
+              "url": "https://framerusercontent.com/images/JhOkqqC48GdTOVvB72YT1bG83eg.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/JhOkqqC48GdTOVvB72YT1bG83eg.png?scale-down-to=512",
+              "altText": "men with braids",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "We felt comfortable throughout the shoot, and the final images captured designs we didn’t even realize were so awesome.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Zehrkha Tru",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "CEO @ Zehrkha",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "shB6CkCB5LyCCdfMXcUWof8D4p4.png",
+              "url": "https://framerusercontent.com/images/shB6CkCB5LyCCdfMXcUWof8D4p4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/shB6CkCB5LyCCdfMXcUWof8D4p4.png?scale-down-to=512",
+              "altText": "abstract shapes onn shirt",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "YWZ4ooSJPj0rh92HtMaY1XvVc.png",
+              "url": "https://framerusercontent.com/images/YWZ4ooSJPj0rh92HtMaY1XvVc.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/YWZ4ooSJPj0rh92HtMaY1XvVc.png?scale-down-to=512",
+              "altText": "floral cloth",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "BzKg7zRoZwvVamfJXssdTPyxhKo.png",
+              "url": "https://framerusercontent.com/images/BzKg7zRoZwvVamfJXssdTPyxhKo.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/BzKg7zRoZwvVamfJXssdTPyxhKo.png?scale-down-to=512",
+              "altText": "flowy fabric with flower",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "UECLd8sCmmkCQKCPsiOWFeljw.png",
+              "url": "https://framerusercontent.com/images/UECLd8sCmmkCQKCPsiOWFeljw.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UECLd8sCmmkCQKCPsiOWFeljw.png?scale-down-to=512",
+              "altText": "floral shirt",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "RXdjykEPOLJVJA1ma4GVRqFVP4.png",
+              "url": "https://framerusercontent.com/images/RXdjykEPOLJVJA1ma4GVRqFVP4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/RXdjykEPOLJVJA1ma4GVRqFVP4.png?scale-down-to=512",
+              "altText": "floral shirt wiht skirt",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "UBsxl1HINxyJ2136ix437qKbhQ.png",
+              "url": "https://framerusercontent.com/images/UBsxl1HINxyJ2136ix437qKbhQ.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/UBsxl1HINxyJ2136ix437qKbhQ.png?scale-down-to=512",
+              "altText": "fabric with abstract prints",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "lOTqN43fydEnhzeHZzLTVW3hQzU.png",
+              "url": "https://framerusercontent.com/images/lOTqN43fydEnhzeHZzLTVW3hQzU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/lOTqN43fydEnhzeHZzLTVW3hQzU.png?scale-down-to=512",
+              "altText": "abstract print fabric",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "J0UBQufCyqS99S1NMm0xCrorXU.png",
+              "url": "https://framerusercontent.com/images/J0UBQufCyqS99S1NMm0xCrorXU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/J0UBQufCyqS99S1NMm0xCrorXU.png?scale-down-to=512",
+              "altText": "charms on pants",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "D5UU7uuFlWbzR0egX0kgTeios4.png",
+              "url": "https://framerusercontent.com/images/D5UU7uuFlWbzR0egX0kgTeios4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/D5UU7uuFlWbzR0egX0kgTeios4.png?scale-down-to=512",
+              "altText": "bagwith cat print",
+              "resolution": "auto"
+            }
+          }
+        }
+      },
+      {
+        "id": "OTnroZulT",
+        "slug": "cosmos",
+        "draft": false,
+        "fieldData": {
+          "QKo5j1Ce7": {
+            "type": "string",
+            "value": "Cosmos",
+            "valueByLocale": {}
+          },
+          "Y3f_Y15It": {
+            "type": "enum",
+            "value": "Option 4"
+          },
+          "coWQdDHE4": {
+            "type": "string",
+            "value": "Cosmos",
+            "valueByLocale": {}
+          },
+          "JzZ1NZAQQ": {
+            "type": "string",
+            "value": "Brand Shoot",
+            "valueByLocale": {}
+          },
+          "ab3Nh65Pa": {
+            "type": "string",
+            "value": "2022",
+            "valueByLocale": {}
+          },
+          "e_fbTMuZE": {
+            "type": "image",
+            "value": {
+              "id": "jf7lL6Cp6b5p40ITxhcmkrfTbJU.png",
+              "url": "https://framerusercontent.com/images/jf7lL6Cp6b5p40ITxhcmkrfTbJU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jf7lL6Cp6b5p40ITxhcmkrfTbJU.png?scale-down-to=512",
+              "altText": "black charm",
+              "resolution": "auto"
+            }
+          },
+          "OHndWzJNZ": {
+            "type": "image",
+            "value": {
+              "id": "ztm30wfxz95cu9mYkA6Pb7QYv0.png",
+              "url": "https://framerusercontent.com/images/ztm30wfxz95cu9mYkA6Pb7QYv0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ztm30wfxz95cu9mYkA6Pb7QYv0.png?scale-down-to=512",
+              "altText": "neckless on hand",
+              "resolution": "auto"
+            }
+          },
+          "s2GfP38km": {
+            "type": "image",
+            "value": {
+              "id": "jSK1NTgLUjHrOukxK0RmCZ0vV4A.png",
+              "url": "https://framerusercontent.com/images/jSK1NTgLUjHrOukxK0RmCZ0vV4A.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jSK1NTgLUjHrOukxK0RmCZ0vV4A.png?scale-down-to=512",
+              "altText": "rings on hand",
+              "resolution": "auto"
+            }
+          },
+          "ko7UdwH1C": {
+            "type": "image",
+            "value": {
+              "id": "qpDYmPDnNg3F1J5IWKvwFCgcCA.png",
+              "url": "https://framerusercontent.com/images/qpDYmPDnNg3F1J5IWKvwFCgcCA.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/qpDYmPDnNg3F1J5IWKvwFCgcCA.png?scale-down-to=512",
+              "altText": "green necklace",
+              "resolution": "auto"
+            }
+          },
+          "g1oqMYKRp": {
+            "type": "string",
+            "value": "Cosmos approached the project with a vision to craft a luminous and refined visual identity for their jewelry collection. The goal was to create imagery that feels elegant, radiant, and aligned with their celestial-inspired aesthetic — highlighting fine detail, texture, and timeless sophistication.",
+            "valueByLocale": {}
+          },
+          "MZBajdHwq": {
+            "type": "image",
+            "value": {
+              "id": "pEMPFayp812oFgPeFNwnxZeG158.png",
+              "url": "https://framerusercontent.com/images/pEMPFayp812oFgPeFNwnxZeG158.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/pEMPFayp812oFgPeFNwnxZeG158.png?scale-down-to=512",
+              "altText": "colorful flower",
+              "resolution": "auto"
+            }
+          },
+          "eYEj91lAX": {
+            "type": "string",
+            "value": "Working withyou was a beautifully collaborative experience - the final imagery captured the brilliance  of our pieces, elevating our brand with a luminous presence.",
+            "valueByLocale": {}
+          },
+          "PfxqmzevP": {
+            "type": "string",
+            "value": "Veena Kapoor",
+            "valueByLocale": {}
+          },
+          "oKOTVKFrj": {
+            "type": "string",
+            "value": "CEO @ Cosmos",
+            "valueByLocale": {}
+          },
+          "R7vZx6pFt": {
+            "type": "image",
+            "value": {
+              "id": "rF32zJulNHyCQAvzAp7F1liJCM.png",
+              "url": "https://framerusercontent.com/images/rF32zJulNHyCQAvzAp7F1liJCM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/rF32zJulNHyCQAvzAp7F1liJCM.png?scale-down-to=512",
+              "altText": "rings on statue hand",
+              "resolution": "auto"
+            }
+          },
+          "HqsqMakXT": {
+            "type": "image",
+            "value": {
+              "id": "QGL5fOpsT1A35yZTW8AMsqzJugM.png",
+              "url": "https://framerusercontent.com/images/QGL5fOpsT1A35yZTW8AMsqzJugM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/QGL5fOpsT1A35yZTW8AMsqzJugM.png?scale-down-to=512",
+              "altText": "yellow necklace",
+              "resolution": "auto"
+            }
+          },
+          "y20ljI9DF": {
+            "type": "image",
+            "value": {
+              "id": "Hx8aH2CrvqzV3x6Ok44X1TVuM.png",
+              "url": "https://framerusercontent.com/images/Hx8aH2CrvqzV3x6Ok44X1TVuM.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/Hx8aH2CrvqzV3x6Ok44X1TVuM.png?scale-down-to=512",
+              "altText": "gold ring in rocks",
+              "resolution": "auto"
+            }
+          },
+          "xihOYWxoj": {
+            "type": "image",
+            "value": {
+              "id": "ztm30wfxz95cu9mYkA6Pb7QYv0.png",
+              "url": "https://framerusercontent.com/images/ztm30wfxz95cu9mYkA6Pb7QYv0.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/ztm30wfxz95cu9mYkA6Pb7QYv0.png?scale-down-to=512",
+              "altText": "necklace on hand",
+              "resolution": "auto"
+            }
+          },
+          "XjUanb2mV": {
+            "type": "image",
+            "value": {
+              "id": "tz07EK77jc9sYK38ItMota9k9JU.png",
+              "url": "https://framerusercontent.com/images/tz07EK77jc9sYK38ItMota9k9JU.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/tz07EK77jc9sYK38ItMota9k9JU.png?scale-down-to=512",
+              "altText": "ring on statue hand",
+              "resolution": "auto"
+            }
+          },
+          "RuHZ4BzBS": {
+            "type": "image",
+            "value": {
+              "id": "jSK1NTgLUjHrOukxK0RmCZ0vV4A.png",
+              "url": "https://framerusercontent.com/images/jSK1NTgLUjHrOukxK0RmCZ0vV4A.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/jSK1NTgLUjHrOukxK0RmCZ0vV4A.png?scale-down-to=512",
+              "altText": "rings on hand",
+              "resolution": "auto"
+            }
+          },
+          "SDChMkLm2": {
+            "type": "image",
+            "value": {
+              "id": "llDn9NubazqouhqUr2Pdbhj2M.png",
+              "url": "https://framerusercontent.com/images/llDn9NubazqouhqUr2Pdbhj2M.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/llDn9NubazqouhqUr2Pdbhj2M.png?scale-down-to=512",
+              "altText": "sea shells jewellry",
+              "resolution": "auto"
+            }
+          },
+          "C6M7NB60B": {
+            "type": "image",
+            "value": {
+              "id": "s8SFINclUdZuBg4mDj8rBaM0UPk.png",
+              "url": "https://framerusercontent.com/images/s8SFINclUdZuBg4mDj8rBaM0UPk.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/s8SFINclUdZuBg4mDj8rBaM0UPk.png?scale-down-to=512",
+              "altText": "yellow necklace",
+              "resolution": "auto"
+            }
+          },
+          "n35JUL24v": {
+            "type": "image",
+            "value": {
+              "id": "SHsfVnwBDzqMon15WJKIxxcKDr4.png",
+              "url": "https://framerusercontent.com/images/SHsfVnwBDzqMon15WJKIxxcKDr4.png",
+              "thumbnailUrl": "https://framerusercontent.com/images/SHsfVnwBDzqMon15WJKIxxcKDr4.png?scale-down-to=512",
+              "altText": "green blacelet",
+              "resolution": "auto"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
