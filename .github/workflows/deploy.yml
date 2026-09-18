@@ -1,0 +1,18 @@
+name: Auto-Sync Vercel Deployment
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Sync to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: |
+          echo "Triggering Vercel production deployment..."
+          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_boEg9TcHItYEtbp8qeTVtkoLrNbT/6KnrsJEvua"
+          echo "Deployment triggered successfully."
