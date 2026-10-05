@@ -2,76 +2,101 @@
 
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { AnimatePresence, motion, useScroll, useTransform, type MotionValue } from "motion/react";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll, useTransform, type MotionValue } from "motion/react";
 import { engagements, faqs, person, processSteps, projects, results, services, tools } from "@/content/site";
 import { Big, EASE, Marquee, Reveal } from "@/components/ui";
 
 function Hero() {
-  const tiles = ["/media/steel-class-0.jpg", "/media/art-network.jpg", null, "/media/ai-figure-dark.jpg", "/media/detect-scratches.jpg"];
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const tilesY = useTransform(p, [0, 1], ["0%", "-18%"]);
+  const ovalScale = useTransform(p, [0, 0.7], [1, 0.55]);
+  const ovalOpacity = useTransform(p, [0.35, 0.75], [1, 0]);
+  const tiles = ["/media/ph/hands-light.jpg", "/media/ph/chip-mono.jpg", null, "/media/ph/silk-waves.jpg", "/media/ph/telescope.jpg"];
   return (
-    <section className="hero">
+    <section className="hero" ref={ref}>
       <h1 className="big fit hero-name"><motion.span initial={{ y: "100%" }} animate={{ y: 0 }} transition={{ duration: 1.2, ease: EASE }}>{person.name}</motion.span></h1>
-      <div className="hero-row">
+      <motion.div className="hero-row" style={{ y: tilesY }}>
         {tiles.map((t, i) => t ? (
-          <motion.div key={t} className="frame hero-tile" initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.25 + i * 0.08, ease: EASE }}><img src={t} alt="" /></motion.div>
+          <motion.div key={t} className="frame hero-tile" initial={{ opacity: 0, y: 80 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.1, delay: 0.25 + i * 0.08, ease: EASE }}><img src={t} alt="" /></motion.div>
         ) : (
-          <motion.div key="portrait" className="hero-oval" initial={{ opacity: 0, scale: 0.85 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.1, delay: 0.5, ease: EASE }}><img src={person.portrait} alt={`Portrait of ${person.name}`} /></motion.div>
+          <motion.div key="portrait" className="hero-oval" style={{ scale: ovalScale, opacity: ovalOpacity }} initial={{ y: 40 }} animate={{ y: 0 }} transition={{ duration: 1.1, delay: 0.5, ease: EASE }}><img src={person.portrait} alt={`Portrait of ${person.name}`} /></motion.div>
         ))}
+      </motion.div>
+    </section>
+  );
+}
+
+/** Pinned intro: a product card cycles through objects while images fly up across the statement. */
+const cardShots = ["/media/ph/cpu-white.jpg", "/media/ph/microscope-white.jpg", "/media/ph/dashboard-desk.jpg", "/media/ph/robot.jpg"];
+const flyers = [
+  { src: "/media/ph/hex-glow.jpg", x: "4%", w: "18vw", at: 0.05 },
+  { src: "/media/ph/molten-steel.jpg", x: "74%", w: "15vw", at: 0.12 },
+  { src: "/media/ph/city-grid.jpg", x: "30%", w: "13vw", at: 0.3 },
+  { src: "/media/ph/runner-road.jpg", x: "62%", w: "17vw", at: 0.42 },
+  { src: "/media/ph/port-cranes.jpg", x: "8%", w: "16vw", at: 0.55 },
+  { src: "/media/ph/dark-tech.jpg", x: "46%", w: "15vw", at: 0.66 },
+];
+
+function Flyer({ f, p }: { f: (typeof flyers)[number]; p: MotionValue<number> }) {
+  const y = useTransform(p, [f.at, f.at + 0.42], ["110vh", "-70vh"]);
+  return <motion.div className="frame flyer" style={{ left: f.x, width: f.w, y }}><img src={f.src} alt="" loading="lazy" /></motion.div>;
+}
+
+function Intro() {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start start", "end end"] });
+  const [shot, setShot] = useState(0);
+  useMotionValueEvent(p, "change", (v) => setShot(Math.min(cardShots.length - 1, Math.max(0, Math.floor(v * cardShots.length * 1.05)))));
+  return (
+    <section className="intro-pin" ref={ref}>
+      <div className="intro-stick">
+        <div className="intro-card">
+          <AnimatePresence mode="popLayout"><motion.img key={shot} src={cardShots[shot]} alt="" initial={{ opacity: 0, scale: 1.08 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5, ease: EASE }} /></AnimatePresence>
+        </div>
+        <div className="intro-copy"><p className="mute intro-from">From {person.location}</p><p className="intro-text">{person.intro}</p></div>
+        {flyers.map((f) => <Flyer key={f.src} f={f} p={p} />)}
       </div>
     </section>
   );
 }
 
-function Intro() {
-  return (
-    <section className="intro">
-      <Reveal className="frame intro-img"><img src="/media/detect-crazing.jpg" alt="DAFEGate detecting a crazing defect on steel" /></Reveal>
-      <Reveal className="intro-copy" delay={0.1}><p className="mute intro-from">From {person.location}</p><p className="intro-text">{person.intro}</p></Reveal>
-    </section>
-  );
+function Signature() {
+  return <Reveal className="signature"><p className="serif">{person.name}</p></Reveal>;
 }
 
-function Float({ src, x, y, w, speed, p }: { src: string; x: string; y: string; w: string; speed: number; p: MotionValue<number> }) {
-  const ty = useTransform(p, [0, 1], [`${speed * 40}vh`, `${-speed * 40}vh`]);
-  return <motion.div className="frame float" style={{ left: x, top: y, width: w, y: ty }}><img src={src} alt="" loading="lazy" /></motion.div>;
-}
-
-function Scatter() {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const items = [
-    { src: "/media/detect-pitted.jpg", x: "2%", y: "4%", w: "22%", speed: 0.5 },
-    { src: "/media/art-kmeans.jpg", x: "80%", y: "0%", w: "17%", speed: 0.9 },
-    { src: "/media/geometry.jpg", x: "38%", y: "18%", w: "22%", speed: 0.3 },
-    { src: "/media/art-flow.jpg", x: "1%", y: "44%", w: "26%", speed: 0.7 },
-    { src: "/media/ai-figure-city.jpg", x: "76%", y: "46%", w: "21%", speed: 0.4 },
-    { src: "/media/steel-class-5.jpg", x: "40%", y: "64%", w: "21%", speed: 0.8 },
-  ];
+function WorkCard({ p, i }: { p: (typeof projects)[number]; i: number }) {
   return (
-    <section ref={ref} className="scatter" aria-label="Visual index">
-      <p className="serif scatter-name">{person.name}</p>
-      {items.map((it) => <Float key={it.src} {...it} p={scrollYProgress} />)}
-    </section>
+    <Link href={`/projects/${p.slug}`} className={`wcard ${i % 3 === 1 ? "tall" : ""}`}>
+      <div className="frame"><img src={p.cover} alt="" loading="lazy" style={p.coverPosition ? { objectPosition: p.coverPosition } : undefined} /><span className="arrow-circle">→</span></div>
+      <div className="work-meta"><p>{p.title}</p><span className="mute">{p.category} · {p.year}</span></div>
+    </Link>
   );
 }
 
 function Work() {
-  const track = useRef<HTMLDivElement>(null);
-  const go = (d: number) => track.current?.scrollBy({ left: d * (track.current.clientWidth * 0.6), behavior: "smooth" });
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const slow = useTransform(p, [0, 1], ["6%", "-6%"]);
+  const fast = useTransform(p, [0, 1], ["18%", "-18%"]);
+  const list = projects.slice(0, 6);
   return (
     <section className="section" id="projects">
       <Big>My Projects</Big>
-      <div className="work-track" ref={track}>
-        {projects.map((p, i) => (
-          <Link key={p.slug} href={`/projects/${p.slug}`} className={`work-card ${i % 2 ? "low" : ""}`}>
-            <div className="frame"><img src={p.cover} alt="" loading="lazy" /><span className="arrow-circle">→</span></div>
-            <div className="work-meta"><p>{p.title}</p><span className="mute">{p.category} · {p.year}</span></div>
-          </Link>
-        ))}
+      <div className="wgrid" ref={ref}>
+        <motion.div className="wcol" style={{ y: slow }}>{list.filter((_, i) => i % 2 === 0).map((p, i) => <WorkCard key={p.slug} p={p} i={i * 2} />)}</motion.div>
+        <motion.div className="wcol right" style={{ y: fast }}>{list.filter((_, i) => i % 2 === 1).map((p, i) => <WorkCard key={p.slug} p={p} i={i * 2 + 1} />)}</motion.div>
       </div>
-      <div className="work-nav"><button type="button" className="btn ghost" onClick={() => go(-1)} aria-label="Previous projects">←</button><button type="button" className="btn ghost" onClick={() => go(1)} aria-label="Next projects">→</button><Link href="/projects" className="btn">All projects</Link></div>
+      <div className="work-nav"><Link href="/projects" className="btn">All {projects.length} projects →</Link></div>
     </section>
   );
+}
+
+function Strip({ images, dir }: { images: string[]; dir: number }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const x = useTransform(p, [0, 1], dir > 0 ? ["0%", "-14%"] : ["-14%", "0%"]);
+  return <div className="svc-window" ref={ref}><motion.div className="svc-strip" style={{ x }}>{images.map((im) => <div key={im} className="frame"><img src={im} alt="" loading="lazy" /></div>)}</motion.div></div>;
 }
 
 function Services() {
@@ -80,16 +105,31 @@ function Services() {
       <Big>What I Build</Big>
       <div className="svc">
         {services.map((s, i) => (
-          <Reveal key={s.title} className="svc-row">
-            <div className="svc-head">
+          <div key={s.title} className="svc-row">
+            <Reveal className="svc-head">
               <div><p className="svc-num">0{i + 1}</p><h3>{s.title}</h3></div>
               <div className="card svc-quote"><p>{s.result}</p><span className="svc-by"><img src={s.images[0]} alt="" /><span><b>{s.from}</b><small className="mute">{s.sub}</small></span></span></div>
-            </div>
-            <div className="svc-strip">{s.images.map((im) => <div key={im} className="frame"><img src={im} alt="" loading="lazy" /></div>)}</div>
-          </Reveal>
+            </Reveal>
+            <Strip images={s.images} dir={i % 2 ? -1 : 1} />
+          </div>
         ))}
       </div>
     </section>
+  );
+}
+
+function ToolCard({ t, i }: { t: (typeof tools)[number]; i: number }) {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress: p } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const sign = i % 2 ? 1 : -1;
+  const rotate = useTransform(p, [0, 1], [sign * 16, sign * -6]);
+  const x = useTransform(p, [0, 1], [`${sign * -8}%`, `${sign * 8}%`]);
+  return (
+    <motion.article ref={ref} className="tool-card" style={{ rotate, x }}>
+      <img src={t.image} alt="" loading="lazy" />
+      <h3 className="serif">{t.title[0]}<br />{t.title[1]}</h3>
+      <ul>{t.items.map((it, n) => <li key={it} style={{ marginLeft: `${[40, 8, 28][n]}%` }}>{it}</li>)}</ul>
+    </motion.article>
   );
 }
 
@@ -97,15 +137,7 @@ function Tools() {
   return (
     <section className="section tools">
       <Big>Stack &amp; Tools</Big>
-      <div className="tool-list">
-        {tools.map((t, i) => (
-          <motion.article key={t.title.join()} className="tool-card" style={{ rotate: i % 2 ? 6 : -6 }} initial={{ opacity: 0, y: 80, rotate: 0 }} whileInView={{ opacity: 1, y: 0, rotate: i % 2 ? 6 : -6 }} viewport={{ once: true, margin: "-10% 0px" }} transition={{ duration: 1, ease: EASE }}>
-            <img src={t.image} alt="" loading="lazy" />
-            <h3 className="serif">{t.title[0]}<br />{t.title[1]}</h3>
-            <ul>{t.items.map((x, n) => <li key={x} style={{ marginLeft: `${[40, 8, 28][n]}%` }}>{x}</li>)}</ul>
-          </motion.article>
-        ))}
-      </div>
+      <div className="tool-list">{tools.map((t, i) => <ToolCard key={t.title.join()} t={t} i={i} />)}</div>
     </section>
   );
 }
@@ -164,13 +196,17 @@ function Engage() {
   );
 }
 
+const fan = ["/media/ph/cpu-white.jpg", "/media/ph/hex-glow.jpg", "/media/dafesteel-banner.jpg", "/media/ph/microscope-blue.jpg", "/media/ph/bokeh-amber.jpg"];
+
 function Faq() {
   const [open, setOpen] = useState<number | null>(0);
   return (
     <section className="section">
       <div className="details" aria-hidden="true"><div className="details-track">{Array.from({ length: 8 }).map((_, i) => <span key={i}>Get in Touch <b className="serif">Y</b></span>)}</div></div>
       <div className="faq-wrap">
-        <motion.img className="faq-img" src="/media/geometry.jpg" alt="" initial={{ rotate: -14, opacity: 0 }} whileInView={{ rotate: -6, opacity: 1 }} viewport={{ once: true }} transition={{ duration: 1.2, ease: EASE }} />
+        <motion.div className="fan" initial="closed" whileInView="open" whileHover="spread" viewport={{ once: true, margin: "-15% 0px" }} aria-hidden="true">
+          {fan.map((src, i) => <motion.img key={src} src={src} alt="" variants={{ closed: { rotate: 0, x: 0, y: 0 }, open: { rotate: (i - 2) * 9, x: (i - 2) * 26, y: Math.abs(i - 2) * 10 }, spread: { rotate: (i - 2) * 15, x: (i - 2) * 46, y: Math.abs(i - 2) * 16 } }} transition={{ duration: 0.9, ease: EASE }} style={{ zIndex: 5 - Math.abs(i - 2) }} />)}
+        </motion.div>
         <div className="faq">
           {faqs.map(([q, a], i) => (
             <div key={q} className="faq-item">
@@ -190,7 +226,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <Intro />
-      <Scatter />
+      <Signature />
       <Work />
       <Services />
       <Tools />

@@ -49,6 +49,8 @@ export type Project = {
   role?: string;
   summary: string;
   cover: string;
+  /** Crop anchor for wide posters shown in portrait frames. */
+  coverPosition?: string;
   gallery: string[];
   stack: string[];
   repo: string;
@@ -69,8 +71,9 @@ export const projects: Project[] = [
     category: "Computer Vision · Research",
     role: "Researcher — module architecture & model code (6-person team)",
     summary: "DAFEGate, a morphology-aware plug-in module for YOLOv11n, lifting steel-defect mAP@0.5 from 79.35% to 81.98% on NEU-DET while keeping 145 FPS.",
-    cover: "/media/detect-scratches.jpg",
-    gallery: ["/media/dafesteel-banner.jpg", "/media/dafe-architecture.jpg", "/media/dafegate-module.jpg", "/media/dafe-feature-maps.jpg", "/media/dafe-per-class-ap.jpg", "/media/dafe-efficiency.jpg", "/media/dafe-pr-curve.jpg", "/media/dafe-confusion.jpg"],
+    cover: "/media/dafesteel-banner.jpg",
+    coverPosition: "78% center",
+    gallery: ["/media/dafe-architecture.jpg", "/media/dafegate-module.jpg", "/media/dafe-feature-maps.jpg", "/media/dafe-per-class-ap.jpg", "/media/dafe-efficiency.jpg", "/media/dafe-pr-curve.jpg", "/media/dafe-confusion.jpg"],
     stack: ["Python", "PyTorch", "YOLOv11", "Docker", "FastAPI", "Hugging Face"],
     repo: "https://github.com/hazemelerefey/DAFEsteel",
     metrics: [["81.98%", "mAP@0.5"], ["+2.63pp", "over baseline"], ["145", "FPS"]],
@@ -91,8 +94,8 @@ export const projects: Project[] = [
     year: "2026",
     category: "Predictive Modelling · SQL",
     summary: "A Random Forest flagging late shipments at 88.9% accuracy across 6,880 GPS-tracked deliveries, on top of an 11-table SQL Server schema.",
-    cover: "/media/art-routes.jpg",
-    gallery: ["/media/log-delay-heatmap.jpg", "/media/log-correlation.jpg", "/media/log-vehicle.jpg", "/media/log-temporal.jpg", "/media/log-sql.jpg"],
+    cover: "/media/ph/truck-night.jpg",
+    gallery: ["/media/log-delay-heatmap.jpg", "/media/log-correlation.jpg", "/media/log-vehicle.jpg", "/media/log-temporal.jpg", "/media/log-sql.jpg", "/media/ph/port-cranes.jpg"],
     stack: ["SQL Server", "ETL", "Python", "Scikit-learn", "Orange"],
     repo: "https://github.com/YoussefSherif218/Transportation_and_Logistics_Tracking",
     metrics: [["88.9%", "Accuracy"], ["0.98", "Recall on delays"], ["11", "SQL tables"]],
@@ -113,8 +116,8 @@ export const projects: Project[] = [
     year: "2026",
     category: "Machine Learning",
     summary: "Six classifiers benchmarked on 13,272 fitness records; XGBoost reached 89.0% (binary) and 77.5% (four-class), confirmed with paired t-tests and explained with SHAP.",
-    cover: "/media/art-shap.jpg",
-    gallery: ["/media/core-models.jpg", "/media/core-shap.jpg", "/media/core-kmeans-pca.jpg", "/media/core-radar.jpg", "/media/core-roc.jpg", "/media/core-correlation.jpg"],
+    cover: "/media/ph/sprinter.jpg",
+    gallery: ["/media/core-models.jpg", "/media/core-shap.jpg", "/media/core-kmeans-pca.jpg", "/media/core-radar.jpg", "/media/core-roc.jpg", "/media/core-correlation.jpg", "/media/ph/sprint-start.jpg"],
     stack: ["Python", "Scikit-learn", "XGBoost", "SHAP", "Pandas", "Seaborn"],
     repo: "https://github.com/YoussefSherif218/Corelytics-Body.Performance",
     metrics: [["89.0%", "Binary accuracy"], ["77.5%", "4-class accuracy"], ["6", "Models"]],
@@ -134,8 +137,8 @@ export const projects: Project[] = [
     year: "2026",
     category: "Machine Learning · Analytics",
     summary: "K-Means over roughly a million Online Retail II rows, turning RFM features into four customer archetypes behind a live Streamlit dashboard.",
-    cover: "/media/art-kmeans.jpg",
-    gallery: ["/media/art-kmeans.jpg", "/media/art-pca.jpg", "/media/art-distribution.jpg"],
+    cover: "/media/ph/supermarket.jpg",
+    gallery: ["/media/ph/supermarket.jpg", "/media/ph/aisle-shelves.jpg", "/media/ph/card-hand.jpg"],
     stack: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Streamlit"],
     repo: "https://github.com/YoussefSherif218/Retail-Pulse-AI-Strategic-Customer-Intelligence",
     metrics: [["~1M", "Rows"], ["4", "Archetypes"], ["40–50%", "Revenue from Champions"]],
@@ -151,8 +154,8 @@ export const projects: Project[] = [
     year: "2026",
     category: "Data Engineering · SQL",
     summary: "The same Online Retail II data taken the other way — a five-table relational schema, 1.07M invoice lines bulk-loaded, and the whole EDA written in T-SQL.",
-    cover: "/media/art-schema.jpg",
-    gallery: ["/media/art-schema.jpg", "/media/log-sql.jpg"],
+    cover: "/media/ph/code-screen.jpg",
+    gallery: ["/media/ph/code-dark.jpg", "/media/log-sql.jpg", "/media/ph/server-rack.jpg"],
     stack: ["SQL Server", "SSMS", "T-SQL", "ETL"],
     repo: "https://github.com/YoussefSherif218/Retail-SQL-Lab",
     metrics: [["1.07M", "Invoice lines"], ["5", "Tables"], ["6", "Analytical views"]],
@@ -167,8 +170,8 @@ export const projects: Project[] = [
     year: "2025",
     category: "Analytics · Statistics",
     summary: "EDA and root-cause analysis on 4,521 campaign records to find what actually drives term-deposit subscriptions in a heavily imbalanced dataset.",
-    cover: "/media/art-distribution.jpg",
-    gallery: ["/media/art-distribution.jpg", "/media/art-roc.jpg"],
+    cover: "/media/ph/bank-facade.jpg",
+    gallery: ["/media/ph/bank-facade.jpg", "/media/ph/card-terminal.jpg", "/media/ph/cards-macro.jpg"],
     stack: ["Python", "Pandas", "NumPy", "Seaborn", "SciPy"],
     repo: "https://github.com/YoussefSherif218/Bank-Marketing-Analytics",
     metrics: [["4,521", "Records"], ["11.5%", "Positive class"], ["2.4×", "Call-duration gap"]],
@@ -185,7 +188,7 @@ export const projects: Project[] = [
     role: "Model code & research",
     summary: "An interactive 3D workspace for configuring deep-learning architectures — visualise, select and wire model components directly in the browser.",
     cover: "/media/neuroscope.jpg",
-    gallery: ["/media/neuroscope.jpg", "/media/art-network.jpg"],
+    gallery: ["/media/neuroscope.jpg", "/media/ph/dark-tech.jpg"],
     stack: ["Deep Learning", "Three.js", "React"],
     repo: "https://github.com/hazemelerefey/NeuroScope",
     metrics: [["3D", "Architecture view"], ["Browser", "Runtime"], ["Team", "Project"]],
@@ -197,17 +200,17 @@ export const projects: Project[] = [
 ];
 
 export const services = [
-  { title: "Computer Vision", result: "“DAFEGate lifted mAP@0.5 to 81.98% while holding 145 FPS.”", from: "DAFEsteel", sub: "Published research", images: ["/media/steel-class-0.jpg", "/media/detect-crazing.jpg", "/media/steel-class-2.jpg", "/media/detect-pitted.jpg", "/media/steel-class-4.jpg", "/media/steel-class-5.jpg"] },
-  { title: "Predictive Modelling", result: "“Random Forest caught 98% of genuine delivery delays.”", from: "Logistics Delay Prediction", sub: "6,880 shipments", images: ["/media/art-roc.jpg", "/media/art-loss.jpg", "/media/art-routes.jpg", "/media/art-confusion.jpg", "/media/art-shap.jpg", "/media/art-network.jpg"] },
-  { title: "Customer Analytics", result: "“10% of customers drive 40–50% of revenue.”", from: "RetailPulse AI", sub: "~1M transactions", images: ["/media/art-kmeans.jpg", "/media/art-pca.jpg", "/media/art-distribution.jpg", "/media/art-flow.jpg", "/media/core-kmeans-pca.jpg", "/media/core-radar.jpg"] },
-  { title: "Data Engineering & SQL", result: "“Two critical anomalies surfaced before they reached a dashboard.”", from: "Retail SQL Lab", sub: "1.07M invoice lines", images: ["/media/art-schema.jpg", "/media/log-sql.jpg", "/media/log-delay-heatmap.jpg", "/media/log-correlation.jpg", "/media/art-flow.jpg", "/media/art-routes.jpg"] },
+  { title: "Computer Vision", result: "“DAFEGate lifted mAP@0.5 to 81.98% while holding 145 FPS.”", from: "DAFEsteel", sub: "Published research", images: ["/media/ph/molten-steel.jpg", "/media/ph/steel-factory.jpg", "/media/ph/steel-tunnel.jpg", "/media/ph/chip-mono.jpg", "/media/ph/hex-glow.jpg", "/media/ph/robot.jpg", "/media/ph/pcb-macro.jpg"] },
+  { title: "Predictive Modelling", result: "“Random Forest caught 98% of genuine delivery delays.”", from: "Logistics Delay Prediction", sub: "6,880 shipments", images: ["/media/ph/truck-night.jpg", "/media/ph/traffic-night.jpg", "/media/ph/containers.jpg", "/media/ph/truck-motion.jpg", "/media/ph/port-cranes.jpg", "/media/ph/sprint-start.jpg", "/media/ph/runner-road.jpg"] },
+  { title: "Customer Analytics", result: "“10% of customers drive 40–50% of revenue.”", from: "RetailPulse AI", sub: "~1M transactions", images: ["/media/ph/aisle-shelves.jpg", "/media/ph/market-aisle.jpg", "/media/ph/supermarket.jpg", "/media/ph/card-hand.jpg", "/media/ph/card-terminal.jpg", "/media/ph/cards-macro.jpg", "/media/ph/bank-facade.jpg"] },
+  { title: "Data Engineering & SQL", result: "“Two critical anomalies surfaced before they reached a dashboard.”", from: "Retail SQL Lab", sub: "1.07M invoice lines", images: ["/media/ph/code-dark.jpg", "/media/ph/server-rack.jpg", "/media/ph/code-js.jpg", "/media/ph/control-room.jpg", "/media/ph/code-mono.jpg", "/media/ph/ram-chip.jpg", "/media/ph/code-blur.jpg"] },
 ];
 
 export const tools = [
-  { title: ["Deep Learning", "& Vision."], items: ["PyTorch", "YOLOv11", "Hugging Face"], image: "/media/detect-scratches.jpg" },
-  { title: ["Machine", "Learning."], items: ["Scikit-learn", "XGBoost", "SHAP"], image: "/media/art-shap.jpg" },
-  { title: ["Data &", "Databases."], items: ["SQL Server", "Pandas", "PySpark"], image: "/media/art-schema.jpg" },
-  { title: ["Ship &", "Report."], items: ["Docker", "FastAPI", "Power BI"], image: "/media/art-loss.jpg" },
+  { title: ["Deep Learning", "& Vision."], items: ["PyTorch", "YOLOv11", "Hugging Face"], image: "/media/ph/molten-steel.jpg" },
+  { title: ["Machine", "Learning."], items: ["Scikit-learn", "XGBoost", "SHAP"], image: "/media/ph/hex-glow.jpg" },
+  { title: ["Data &", "Databases."], items: ["SQL Server", "Pandas", "PySpark"], image: "/media/ph/server-rack.jpg" },
+  { title: ["Ship &", "Report."], items: ["Docker", "FastAPI", "Power BI"], image: "/media/ph/dark-tech.jpg" },
 ];
 
 export const processSteps = [
@@ -218,12 +221,12 @@ export const processSteps = [
 ];
 
 export const results = [
-  { value: "81.98%", label: "mAP@0.5 on NEU-DET", project: "DAFEsteel", image: "/media/detect-crazing.jpg" },
-  { value: "0.98", label: "Recall on delayed shipments", project: "Logistics Delay Prediction", image: "/media/art-routes.jpg" },
-  { value: "89.0%", label: "Binary accuracy with XGBoost", project: "Corelytics", image: "/media/art-shap.jpg" },
-  { value: "40–50%", label: "Revenue from the top 10% of customers", project: "RetailPulse AI", image: "/media/art-kmeans.jpg" },
-  { value: "2.4×", label: "Call-duration gap between converters", project: "Bank Marketing Analytics", image: "/media/art-distribution.jpg" },
-  { value: "1.07M", label: "Invoice lines loaded and audited in T-SQL", project: "Retail SQL Lab", image: "/media/art-schema.jpg" },
+  { value: "81.98%", label: "mAP@0.5 on NEU-DET", project: "DAFEsteel", image: "/media/ph/molten-steel.jpg" },
+  { value: "0.98", label: "Recall on delayed shipments", project: "Logistics Delay Prediction", image: "/media/ph/truck-night.jpg" },
+  { value: "89.0%", label: "Binary accuracy with XGBoost", project: "Corelytics", image: "/media/ph/sprinter.jpg" },
+  { value: "40–50%", label: "Revenue from the top 10% of customers", project: "RetailPulse AI", image: "/media/ph/supermarket.jpg" },
+  { value: "2.4×", label: "Call-duration gap between converters", project: "Bank Marketing Analytics", image: "/media/ph/bank-facade.jpg" },
+  { value: "1.07M", label: "Invoice lines loaded and audited in T-SQL", project: "Retail SQL Lab", image: "/media/ph/code-screen.jpg" },
 ];
 
 export const engagements = [
@@ -269,13 +272,13 @@ export const skills = [
 
 export type Note = { slug: string; title: string; topic: string; date: string; read: string; cover: string; collage: string[]; excerpt: string; body: string[] };
 export const notes: Note[] = [
-  { slug: "why-recall-mattered", title: "Why recall mattered more than accuracy", topic: "Modelling", date: "2026", read: "3 min", cover: "/media/art-routes.jpg", collage: ["/media/log-delay-heatmap.jpg", "/media/art-roc.jpg", "/media/art-confusion.jpg", "/media/log-vehicle.jpg"],
+  { slug: "why-recall-mattered", title: "Why recall mattered more than accuracy", topic: "Modelling", date: "2026", read: "3 min", cover: "/media/ph/truck-night.jpg", collage: ["/media/ph/containers.jpg", "/media/ph/traffic-night.jpg", "/media/ph/port-cranes.jpg", "/media/ph/truck-motion.jpg"],
     excerpt: "Logistics Delay Prediction leads on 88.9% accuracy, but the number that actually earned its place is 0.98 recall on the delayed class.",
     body: ["The model catches 98% of genuine delays. It also flags about 27% of on-time shipments as late — on-time recall is 0.73.", "That trade-off is a choice, not an accident. For a logistics team, a missed delay means a broken promise to a customer; a false alarm means one extra check.", "So I tuned for recall on the class that costs money when it is missed, and I report both numbers side by side rather than leading with a single accuracy figure."] },
-  { slug: "one-dataset-two-routes", title: "One dataset, two routes", topic: "Data engineering", date: "2026", read: "3 min", cover: "/media/art-kmeans.jpg", collage: ["/media/art-schema.jpg", "/media/art-pca.jpg", "/media/log-sql.jpg", "/media/art-distribution.jpg"],
+  { slug: "one-dataset-two-routes", title: "One dataset, two routes", topic: "Data engineering", date: "2026", read: "3 min", cover: "/media/ph/market-aisle.jpg", collage: ["/media/ph/aisle-shelves.jpg", "/media/ph/code-dark.jpg", "/media/ph/card-hand.jpg", "/media/ph/server-rack.jpg"],
     excerpt: "RetailPulse AI and Retail SQL Lab both start from Online Retail II. That is deliberate.",
     body: ["In Python, the data became RFM features, K-Means clusters and a Streamlit dashboard — four archetypes, and the finding that 10% of customers drive 40–50% of revenue.", "In SQL Server, the same data became a five-table schema with full referential integrity, 1.07M bulk-loaded invoice lines and an EDA written entirely in T-SQL.", "Running both on identical data shows the range: one route answers who to target, the other makes sure the numbers underneath can be trusted — it surfaced a −53,594 minimum price and a −80,995 minimum quantity."] },
-  { slug: "inside-dafegate", title: "Inside DAFEGate", topic: "Computer vision", date: "2026", read: "4 min", cover: "/media/detect-crazing.jpg", collage: ["/media/steel-class-0.jpg", "/media/dafe-feature-maps.jpg", "/media/steel-class-5.jpg", "/media/detect-pitted.jpg"],
+  { slug: "inside-dafegate", title: "Inside DAFEGate", topic: "Computer vision", date: "2026", read: "4 min", cover: "/media/ph/steel-factory.jpg", collage: ["/media/ph/molten-steel.jpg", "/media/ph/steel-tunnel.jpg", "/media/ph/chip-mono.jpg", "/media/ph/hex-glow.jpg"],
     excerpt: "Steel defects come in two shapes — edges and textures. DAFEGate gives each its own branch.",
     body: ["Crazing and scratches are thin, linear, edge-driven. Patches and pitted surfaces are textural. A generic backbone treats them the same way.", "DAFEGate is a plug-in module for YOLOv11n with an edge-aware and a texture-aware branch, fused through squeeze-and-excite attention and wrapped in an additive residual so gradients still flow.", "Across 18 tracked experiments and an ablation study, it moved mAP@0.5 on NEU-DET from 79.35% to 81.98% while keeping 145 FPS — fast enough for a production line."] },
 ];

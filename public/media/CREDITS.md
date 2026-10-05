@@ -1,0 +1,47 @@
+# Photography credits
+
+All photographs are CC0 / public-domain images found through Openverse (openverse.org). No attribution is required; sources are listed for transparency.
+
+- `ph/hands-light.jpg` — Hands Darkness · CC0 · stocksnap · https://stocksnap.io/photo/hands-darkness-62ZEVNXMHK
+- `ph/chip-mono.jpg` — Computer chip, technology image · CC0 · rawpixel · https://www.rawpixel.com/image/11176462/computer-chip-technology-image
+- `ph/silk-waves.jpg` — Abstract Waves by HD Wallpapers · CC0 · stocksnap · https://stocksnap.io/photo/abstract-waves-VY9XAHGT90
+- `ph/telescope.jpg` — Satellite dish space technolgy · CC0 · rawpixel · https://www.rawpixel.com/image/6038629/photo-image-cloud-public-domain-technology
+- `ph/cpu-white.jpg` — Free computer chip image · CC0 · rawpixel · https://www.rawpixel.com/image/5920449/photo-image-public-domain-technology-computer
+- `ph/dashboard-desk.jpg` — Seo Ppc by Serpstat · CC0 · stocksnap · https://stocksnap.io/photo/seo-ppc-9699Y6WKLD
+- `ph/microscope-white.jpg` — Free microscope public domain CC0 · CC0 · rawpixel · https://www.rawpixel.com/image/5925041/free-microscope-public-domain-cc0-photo
+- `ph/robot.jpg` — Robot Technology by Alex Knight · CC0 · stocksnap · https://stocksnap.io/photo/robot-technology-WUBMLJRYEK
+- `ph/hex-glow.jpg` — Abstract Shapes by HD Wallpapers · CC0 · stocksnap · https://stocksnap.io/photo/abstract-shapes-LHA1PMAU1J
+- `ph/molten-steel.jpg` — Untitled · CC0 · rawpixel · https://www.rawpixel.com/image/6049259/free-public-domain-cc0-photo
+- `ph/city-grid.jpg` — Architecture Buildings by Jesse Collins · CC0 · stocksnap · https://stocksnap.io/photo/architecture-buildings-P19Z6VTYQ0
+- `ph/runner-road.jpg` — People Running by kinkate · CC0 · stocksnap · https://stocksnap.io/photo/people-running-2USDVKPSWS
+- `ph/port-cranes.jpg` — Shipping containers port · CC0 · rawpixel · https://www.rawpixel.com/image/6026504/photo-image-public-domain-free
+- `ph/dark-tech.jpg` — Futuristic Technology by Build Tier List · CC0 · stocksnap · https://stocksnap.io/photo/futuristic-technology-YWJQBD3VIX
+- `ph/truck-night.jpg` — Truck Transportation by Seb Creativo · CC0 · stocksnap · https://stocksnap.io/photo/truck-transportation-L05LPK1M02
+- `ph/sprinter.jpg` — People Man by William Stitt · CC0 · stocksnap · https://stocksnap.io/photo/people-man-EG7KI8FXPR
+- `ph/supermarket.jpg` — Free liquor aisle supermarket · CC0 · rawpixel · https://www.rawpixel.com/image/5904812/photo-image-public-domain-free
+- `ph/code-screen.jpg` — Closeup binary coding screen by Markus Spiske · CC0 · rawpixel · https://www.rawpixel.com/image/463152/free-photo-image-software-engineering-programming-internet
+- `ph/bank-facade.jpg` — Ottoman Banks Archives and Research Centre by Gilliancelik · CC0 · wikimedia · https://commons.wikimedia.org/w/index.php?curid=14918720
+- `ph/card-terminal.jpg` — Credit card payment, shopping · CC0 · rawpixel · https://www.rawpixel.com/image/8809237/credit-card-payment-shopping
+- `ph/steel-factory.jpg` — Untitled · CC0 · rawpixel · https://www.rawpixel.com/image/5957742/free-public-domain-cc0-photo
+- `ph/steel-tunnel.jpg` — Steel factory, sun shining through · CC0 · rawpixel · https://www.rawpixel.com/image/5917153/image-public-domain-sun-free
+- `ph/traffic-night.jpg` — Traffic Cars by Israel Sundseth · CC0 · stocksnap · https://stocksnap.io/photo/traffic-cars-A1B4D60E6C
+- `ph/containers.jpg` — Stacks shipping containers Port Barcelona · CC0 · rawpixel · https://www.rawpixel.com/image/3305642/free-photo-image-shipping-cargo-transportation-containers
+- `ph/truck-motion.jpg` — Free truck passing image · CC0 · rawpixel · https://www.rawpixel.com/image/5908755/image-cloud-light-public-domain
+- `ph/sprint-start.jpg` — Running People by Braden Collum · CC0 · stocksnap · https://stocksnap.io/photo/running-people-G443L74KXK
+- `ph/aisle-shelves.jpg` — A supermarket aisle with shelves filled with various dairy products, including packaged cheeses, yogurts, and drinks. Bottles of juice and other beverages are also visible on the lower shelves. The aisle is well-lit, showcasing a wide array of colorful products. by Nilo Velez · CC0 · wordpress · https://wordpress.org/photos/photo/259678bae9/
+- `ph/market-aisle.jpg` — Untitled · CC0 · rawpixel · https://www.rawpixel.com/image/5959801/free-public-domain-cc0-photo
+- `ph/card-hand.jpg` — Free credit card image · CC0 · rawpixel · https://www.rawpixel.com/image/5913338/image-public-domain-hand-person
+- `ph/cards-macro.jpg` — Credit card, Mastercard VISA. Location · CC0 · rawpixel · https://www.rawpixel.com/image/6113434/photo-image-public-domain-logo-money
+- `ph/code-dark.jpg` — Free code screen photo · CC0 · rawpixel · https://www.rawpixel.com/image/5916895/free-code-screen-photo-public-domain-cc0-image
+- `ph/code-blur.jpg` — Free computer code screen image · CC0 · rawpixel · https://www.rawpixel.com/image/5916657/image-public-domain-computer-free
+- `ph/code-js.jpg` — Code Coding by Lorenzo Cafaro · CC0 · stocksnap · https://stocksnap.io/photo/code-coding-TIV258VG3N
+- `ph/code-mono.jpg` — Programming Code by One Idea LLC · CC0 · stocksnap · https://stocksnap.io/photo/programming-code-1STVFMTBJY
+- `ph/server-rack.jpg` — File:Rear of rack at NERSC data center - closeup.jpg by Derrick Coetzee from Berkeley, CA, USA · CC0 · wikimedia · https://commons.wikimedia.org/w/index.php?curid=17460421
+- `ph/control-room.jpg` — Photos of the Launch Vehicle Data Center in Hangar AE, room 2, showing the engineering console upgrades. Original from NASA Digitally enhanced by rawpixel. by NASA · CC0 · rawpixel · https://www.rawpixel.com/image/440405/free-photo-image-control-room-datum-center-lsp
+- `ph/ram-chip.jpg` — Computer Chip by Lenharth Systems · CC0 · stocksnap · https://stocksnap.io/photo/computer-chip-IOZ1RNUBRY
+- `ph/pcb-macro.jpg` — Computer Chip by Lenharth Systems · CC0 · stocksnap · https://stocksnap.io/photo/computer-chip-DOYIWRMYPQ
+- `ph/barbell.jpg` — Gym Weights by Marcin Czaja · CC0 · stocksnap · https://stocksnap.io/photo/gym-weights-SRWV8BAHE6
+- `ph/microscope-blue.jpg` — Free microscope public domain CC0 · CC0 · rawpixel · https://www.rawpixel.com/image/5924826/free-microscope-public-domain-cc0-photo
+- `ph/bokeh-amber.jpg` — Lights Blurry by Pawel Kadysz · CC0 · stocksnap · https://stocksnap.io/photo/lights-blurry-358Q1768QT
+- `ph/gym-floor.jpg` — Girl Gym by Khusen Rustamov · CC0 · stocksnap · https://stocksnap.io/photo/girl-gym-00RNNUWGLM
+- `ph/harbour-city.jpg` — Hongkong City by Burst · CC0 · stocksnap · https://stocksnap.io/photo/hongkong-city-RRLLIP25F3

@@ -26,6 +26,7 @@ All copy lives in `content/site.ts` and comes from Youssef's CV (`public/youssef
 ## Media
 
 - **Project figures** — DAFEsteel publication figures and detections, Corelytics plots and Logistics EDA charts, taken from the project repositories.
-- **Data-art visuals** (`public/media/art-*.jpg`) — generated for this site with NumPy and Matplotlib, themed on each project (clusters, routes, ROC curves, SHAP, schemas).
+- **Editorial photography** (`public/media/ph/`) — CC0 / public-domain photographs sourced through Openverse, cropped and graded for the site. Sources are listed in `public/media/CREDITS.md`.
+- **DAFEsteel poster** — the project's own poster from Youssef's portfolio repository.
 - **Portrait and AI imagery** — from Youssef's existing portfolio.
 - **Fonts** — Cabinet Grotesk (Fontshare free licence), Instrument Serif and Inter (SIL Open Font License).

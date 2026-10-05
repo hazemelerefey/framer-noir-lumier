@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { person, socials } from "@/content/site";
 
-const ring = ["/media/detect-crazing.jpg", "/media/art-kmeans.jpg", "/media/steel-class-2.jpg", "/media/art-roc.jpg", "/media/ai-figure-city.jpg", "/media/art-network.jpg", "/media/detect-pitted.jpg", "/media/art-shap.jpg", "/media/steel-class-5.jpg", "/media/art-flow.jpg", "/media/geometry.jpg", "/media/art-routes.jpg"];
+const ring = ["/media/ph/hands-light.jpg", "/media/ph/hex-glow.jpg", "/media/ph/molten-steel.jpg", "/media/ph/city-grid.jpg", "/media/ph/cpu-white.jpg", "/media/ph/runner-road.jpg", "/media/ph/port-cranes.jpg", "/media/ph/microscope-blue.jpg", "/media/ph/supermarket.jpg", "/media/ph/bokeh-amber.jpg", "/media/ph/telescope.jpg", "/media/ph/dark-tech.jpg"];
 
 export default function Contact() {
   const [sent, setSent] = useState(false);

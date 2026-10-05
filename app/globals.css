@@ -7,7 +7,7 @@
 
 :root { --bg: #0a0a0a; --s1: #121212; --s2: #1c1c1c; --line: #262626; --mute: #949494; --fg: #fff; --acc: #ff4d2e; --pad: 20px; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: clip; }
 body { background: var(--bg); color: var(--fg); font: 400 15px/1.45 "Inter", system-ui, sans-serif; letter-spacing: -0.01em; -webkit-font-smoothing: antialiased; overflow-x: hidden;
   background-image: radial-gradient(rgba(255,255,255,.035) 1px, transparent 1px); background-size: 6px 6px; }
 img { display: block; max-width: 100%; }
@@ -74,8 +74,12 @@ button, input, select, textarea { font: inherit; color: inherit; letter-spacing:
 .cta h2 { font-family: "Cabinet"; font-weight: 500; font-size: clamp(44px, 5.6vw, 80px); line-height: .95; letter-spacing: -0.04em; }
 .cta ul { list-style: none; display: grid; gap: 10px; align-content: start; font-size: 15px; }
 .cta ul a:hover { color: var(--mute); }
-.cta-strip { display: flex; gap: 10px; overflow: hidden; margin: 14px 0 0; padding-inline: var(--pad); }
-.cta-strip .frame { flex: 0 0 clamp(160px, 17vw, 250px); aspect-ratio: .8; }
+.cta-strip { overflow: hidden; margin: 14px 0 0; }
+.cta-track { display: flex; align-items: flex-start; gap: 10px; width: max-content; animation: marquee 60s linear infinite; }
+.cta-strip:hover .cta-track { animation-play-state: paused; }
+.cta-track .frame { flex: 0 0 clamp(150px, 15vw, 230px); aspect-ratio: .78; }
+.cta-track .frame.h1 { aspect-ratio: 1; } .cta-track .frame.h2 { aspect-ratio: .66; } .cta-track .frame.h3 { aspect-ratio: .9; }
+.cta-track .frame img { transition: transform 1s; } .cta-track .frame:hover img { transform: scale(1.06); }
 .foot-word { font-family: "Cabinet"; font-weight: 500; font-size: 14.2vw; line-height: .8; letter-spacing: -0.05em; color: #1a1a1a; text-align: center; white-space: nowrap; margin-top: 30px; user-select: none; }
 .foot-bar { display: flex; justify-content: space-between; gap: 16px; padding: 18px var(--pad) 22px; font-size: 13px; color: var(--mute); border-top: 1px solid var(--line); flex-wrap: wrap; }
 .foot-bar b { color: #fff; font-weight: 500; }

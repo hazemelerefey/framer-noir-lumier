@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 /** Charts exported from notebooks have white backgrounds; generated art and photos are dark. */
-const dark = (src: string) => /\/(art-|detect-|steel-|neuroscope|ai-figure|geometry|dafesteel-banner)/.test(src);
+const dark = (src: string) => /\/(ph\/|neuroscope|ai-figure|geometry|dafesteel-banner)/.test(src);
 
 export default async function Project({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

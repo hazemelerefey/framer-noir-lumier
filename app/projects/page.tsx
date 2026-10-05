@@ -13,7 +13,7 @@ export default function Projects() {
         {projects.map((p, i) => (
           <Reveal key={p.slug} delay={(i % 2) * 0.08}>
             <Link href={`/projects/${p.slug}`} className="work-card" style={{ flex: "none" }}>
-              <div className="frame"><img src={p.cover} alt="" loading="lazy" /><span className="arrow-circle">→</span></div>
+              <div className="frame"><img src={p.cover} alt="" loading="lazy" style={p.coverPosition ? { objectPosition: p.coverPosition } : undefined} /><span className="arrow-circle">→</span></div>
               <div className="work-meta"><p>{p.title}</p><span className="mute">{p.category} · {p.year}</span></div>
               <p className="mute" style={{ fontSize: 14, maxWidth: 520 }}>{p.summary}</p>
             </Link>

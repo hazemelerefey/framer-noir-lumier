@@ -86,7 +86,7 @@ export function Reveal({ children, delay = 0, className, y = 30 }: { children: R
 }
 
 export function Footer() {
-  const strip = ["/media/detect-crazing.jpg", "/media/art-kmeans.jpg", "/media/steel-class-4.jpg", "/media/art-roc.jpg", "/media/ai-figure-dark.jpg", "/media/art-network.jpg", "/media/detect-pitted.jpg"];
+  const strip = ["/media/ph/hands-light.jpg", "/media/ph/pcb-macro.jpg", "/media/ph/barbell.jpg", "/media/ph/microscope-blue.jpg", "/media/ph/bokeh-amber.jpg", "/media/ph/telescope.jpg", "/media/ph/harbour-city.jpg", "/media/ph/gym-floor.jpg", "/media/ph/ram-chip.jpg", "/media/ph/silk-waves.jpg"];
   return (
     <footer>
       <section className="cta" aria-labelledby="cta-title">
@@ -94,7 +94,7 @@ export function Footer() {
         <ul><li><Link href="/projects">Projects</Link></li><li><Link href="/about">About &amp; experience</Link></li><li><Link href="/notes">Project notes</Link></li><li><Link href="/contact">Get in touch</Link></li></ul>
         <ul><li><a href={`mailto:${person.email}`}>{person.email}</a></li><li><a href={person.phoneHref}>{person.phone}</a></li><li><a href={person.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li><li><a href={person.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a></li></ul>
       </section>
-      <div className="cta-strip" aria-hidden="true">{strip.map((s) => <div key={s} className="frame"><img src={s} alt="" loading="lazy" /></div>)}</div>
+      <div className="cta-strip" aria-hidden="true"><div className="cta-track">{[...strip, ...strip].map((s, i) => <div key={i} className={`frame h${i % 4}`}><img src={s} alt="" loading="lazy" /></div>)}</div></div>
       <p className="foot-word" aria-hidden="true">{person.name}</p>
       <div className="foot-bar"><span>© {new Date().getFullYear()} {person.name}</span><span>Designed by <b>Hazem Elerefy</b></span><a href={person.cv} target="_blank" rel="noopener noreferrer">Résumé (PDF) ↗</a></div>
     </footer>
